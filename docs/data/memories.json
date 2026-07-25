@@ -1,0 +1,2491 @@
+[
+  {
+    "id": "m0",
+    "abstraction": "Northwind Retail Group migration kickoff date and attendees",
+    "cues": [
+      "Northwind Retail kickoff",
+      "Dana Liu attendee",
+      "Lumen CDP meeting"
+    ],
+    "value": "On January 14, 2026, a migration kickoff meeting was held for Northwind Retail Group with attendees Dana Liu (CTO, Northwind), Priya Raman (Dir. Lifecycle Marketing, Northwind), Sam Okafor (Lumen CDP, AE), and Carlos R. (Lumen CDP, Solutions).",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:28:57",
+    "history": []
+  },
+  {
+    "id": "m1",
+    "abstraction": "Northwind Retail kickoff",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m2",
+    "abstraction": "Dana Liu attendee",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m3",
+    "abstraction": "Lumen CDP meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m4",
+    "abstraction": "Northwind Retail Group database consolidation",
+    "cues": [
+      "Northwind Retail database",
+      "Lumen CDP consolidation"
+    ],
+    "value": "Northwind Retail Group is consolidating three legacy marketing databases onto Lumen CDP.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:28:57",
+    "history": []
+  },
+  {
+    "id": "m5",
+    "abstraction": "Northwind Retail database",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m6",
+    "abstraction": "Lumen CDP consolidation",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m7",
+    "abstraction": "Northwind Retail Group initial contract size",
+    "cues": [
+      "Northwind Retail contract",
+      "Northwind Retail seats"
+    ],
+    "value": "Northwind Retail Group's initial contract is for 1,200 seats across marketing and analytics.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:28:57",
+    "history": []
+  },
+  {
+    "id": "m8",
+    "abstraction": "Northwind Retail contract",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m9",
+    "abstraction": "Northwind Retail seats",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m10",
+    "abstraction": "Northwind Retail Group Braze messaging volume",
+    "cues": [
+      "Priya Raman messaging volume",
+      "Northwind Braze usage"
+    ],
+    "value": "Priya Raman's team currently sends roughly 4.2 million messages per month through Braze.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:28:57",
+    "history": []
+  },
+  {
+    "id": "m11",
+    "abstraction": "Priya Raman messaging volume",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m12",
+    "abstraction": "Northwind Braze usage",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m13",
+    "abstraction": "Northwind Retail Group migration standing meeting schedule",
+    "cues": [
+      "Dana Liu sync meeting",
+      "Northwind Retail meeting schedule"
+    ],
+    "value": "Dana Liu requested a standing biweekly Tuesday sync meeting for the migration project.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:28:57",
+    "history": []
+  },
+  {
+    "id": "m14",
+    "abstraction": "Dana Liu sync meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m15",
+    "abstraction": "Northwind Retail meeting schedule",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m16",
+    "abstraction": "Northwind Retail Group migration kickoff action items",
+    "cues": [
+      "Lumen data mapping",
+      "Northwind data steward",
+      "Northwind Retail action items"
+    ],
+    "value": "Action items from the kickoff meeting are for Lumen to deliver a data mapping draft by January 28, 2026, and for Northwind to nominate a data steward per source system.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:28:57",
+    "history": []
+  },
+  {
+    "id": "m17",
+    "abstraction": "Lumen data mapping",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m18",
+    "abstraction": "Northwind data steward",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m19",
+    "abstraction": "Northwind Retail action items",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m20",
+    "abstraction": "Northwind Retail Group data mapping review date and attendees",
+    "cues": [
+      "Northwind data mapping",
+      "Northwind review attendees",
+      "Marcus Bell meeting"
+    ],
+    "value": "On January 28, 2026, a data mapping review for Northwind Retail Group was held with attendees Priya Raman, Marcus Bell (VP of Engineering at Northwind), and Carlos R.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:29:41",
+    "history": []
+  },
+  {
+    "id": "m21",
+    "abstraction": "Northwind data mapping",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m22",
+    "abstraction": "Northwind review attendees",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m23",
+    "abstraction": "Marcus Bell meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m24",
+    "abstraction": "Northwind Retail Group legacy data sources",
+    "cues": [
+      "Northwind legacy data",
+      "Northwind Oracle instance",
+      "Northwind Segment warehouse"
+    ],
+    "value": "The three legacy data sources reviewed for Northwind Retail Group were an on-prem Oracle instance with approximately 9.4M customer master profiles, a Postgres loyalty database with approximately 3.1M members, and a Segment warehouse export.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:29:41",
+    "history": []
+  },
+  {
+    "id": "m25",
+    "abstraction": "Northwind legacy data",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m26",
+    "abstraction": "Northwind Oracle instance",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m27",
+    "abstraction": "Northwind Segment warehouse",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m28",
+    "abstraction": "Northwind Retail Group loyalty database schedule risk",
+    "cues": [
+      "Northwind schedule risk",
+      "Postgres loyalty database",
+      "Marcus Bell risk report"
+    ],
+    "value": "Marcus Bell reported that the Postgres loyalty database lacks a reliable primary key for 2019-2021 records, requiring fuzzy identity resolution for roughly 400k rows, which is estimated to take two engineering sprints and poses a schedule risk.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:29:41",
+    "history": []
+  },
+  {
+    "id": "m29",
+    "abstraction": "Northwind schedule risk",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m30",
+    "abstraction": "Postgres loyalty database",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m31",
+    "abstraction": "Marcus Bell risk report",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m32",
+    "abstraction": "Northwind Retail Group data steward assignments",
+    "cues": [
+      "Northwind data stewards",
+      "Priya Raman assignment",
+      "Ana Duarte steward"
+    ],
+    "value": "Priya Raman confirmed the data steward assignments for Northwind Retail Group: Ana Duarte for Oracle, Tom Reyes for loyalty, and Priya Raman for Segment.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:29:41",
+    "history": []
+  },
+  {
+    "id": "m33",
+    "abstraction": "Northwind data stewards",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m34",
+    "abstraction": "Priya Raman assignment",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m35",
+    "abstraction": "Ana Duarte steward",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m36",
+    "abstraction": "Northwind Retail Group DPA review meeting details",
+    "cues": [
+      "Northwind Retail legal review",
+      "DPA meeting attendees",
+      "Northwind Retail DPA"
+    ],
+    "value": "On February 11, 2026, Dana Liu, Helena Vogt from Northwind Legal, Sam Okafor, and Carlos R. attended a DPA legal review meeting for Northwind Retail Group.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:11",
+    "history": []
+  },
+  {
+    "id": "m37",
+    "abstraction": "Northwind Retail legal review",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m38",
+    "abstraction": "DPA meeting attendees",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m39",
+    "abstraction": "Northwind Retail DPA",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m40",
+    "abstraction": "Northwind Retail Group EU data residency constraint",
+    "cues": [
+      "Helena Vogt DPA clause",
+      "EU data residency constraint",
+      "Northwind Retail Frankfurt region"
+    ],
+    "value": "Helena Vogt from Northwind Legal introduced a hard constraint based on DPA clause 7.3 requiring all EU customer data to be stored and processed in eu-central-1 (Frankfurt) without transiting US regions for backup or analytics.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:11",
+    "history": []
+  },
+  {
+    "id": "m41",
+    "abstraction": "Helena Vogt DPA clause",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m42",
+    "abstraction": "EU data residency constraint",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m43",
+    "abstraction": "Northwind Retail Frankfurt region",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m44",
+    "abstraction": "Northwind Retail Group profile breakdown",
+    "cues": [
+      "Northwind Retail customer profiles",
+      "Northwind EU resident profiles"
+    ],
+    "value": "Roughly 2.8 million of Northwind Retail Group's 9.4 million total customer profiles are EU-resident.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:11",
+    "history": []
+  },
+  {
+    "id": "m45",
+    "abstraction": "Northwind Retail customer profiles",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m46",
+    "abstraction": "Northwind EU resident profiles",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m47",
+    "abstraction": "Northwind Retail Group EU segment go-live condition",
+    "cues": [
+      "Dana Liu EU constraint",
+      "Northwind EU segment go-live"
+    ],
+    "value": "Dana Liu affirmed that the EU data residency constraint is non-negotiable and gates the go-live for Northwind Retail Group's EU segment.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:11",
+    "history": []
+  },
+  {
+    "id": "m48",
+    "abstraction": "Dana Liu EU constraint",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m49",
+    "abstraction": "Northwind EU segment go-live",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m50",
+    "abstraction": "Lumen action item for Northwind Retail Group",
+    "cues": [
+      "Lumen dual-region architecture",
+      "Lumen cost delta"
+    ],
+    "value": "Lumen is required to present a dual-region architecture and cost delta by February 25, 2026.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:11",
+    "history": []
+  },
+  {
+    "id": "m51",
+    "abstraction": "Lumen dual-region architecture",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m52",
+    "abstraction": "Lumen cost delta",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m53",
+    "abstraction": "Northwind Retail Group dual-region architecture meeting details",
+    "cues": [
+      "Northwind architecture meeting",
+      "Dana Liu meeting",
+      "Northwind cost discussion"
+    ],
+    "value": "On February 25, 2026, Dana Liu, Marcus Bell, and Carlos R. attended a meeting regarding the Northwind Retail Group dual-region architecture and cost delta.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:35",
+    "history": []
+  },
+  {
+    "id": "m54",
+    "abstraction": "Northwind architecture meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m55",
+    "abstraction": "Dana Liu meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m56",
+    "abstraction": "Northwind cost discussion",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m57",
+    "abstraction": "Northwind Retail Group dual-region deployment topology configuration",
+    "cues": [
+      "Carlos R residency constraint",
+      "Northwind January estimate",
+      "EU enclave topology"
+    ],
+    "value": "Carlos R. noted that meeting the EU data residency constraint requires a dual-region deployment topology, which was not included in the January estimate. The topology features a primary region in us-east-1 and an EU enclave in eu-central-1, running identity resolution independently per region with no cross-region profile joins.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:35",
+    "history": [
+      {
+        "index": "Northwind Retail Group deployment topology impact",
+        "value": "Carlos R. noted that meeting the EU data residency constraint requires a dual-region deployment topology that was not included in the January estimate.",
+        "creation_time": "2026-07-25 01:30:11",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group dual-region topology configuration",
+        "value": "The dual-region topology features a primary region in us-east-1 and an EU enclave in eu-central-1, running identity resolution independently per region with no cross-region profile joins.",
+        "creation_time": "2026-07-25 01:30:35",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m58",
+    "abstraction": "Carlos R residency constraint",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m59",
+    "abstraction": "Northwind January estimate",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m60",
+    "abstraction": "EU enclave topology",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m61",
+    "abstraction": "Northwind Retail Group dual-region cost delta and budget overage",
+    "cues": [
+      "Northwind budget overage",
+      "Kafka cluster cost",
+      "Northwind architecture budget"
+    ],
+    "value": "The year-one cost delta for the dual-region architecture is approximately $55k due to duplicated compute for identity resolution and a second Kafka cluster, bringing the total cost to $355k, which exceeds the approved $300k budget.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:35",
+    "history": []
+  },
+  {
+    "id": "m62",
+    "abstraction": "Northwind budget overage",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m63",
+    "abstraction": "Kafka cluster cost",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m64",
+    "abstraction": "Northwind architecture budget",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m65",
+    "abstraction": "Dana Liu's plan regarding Northwind Retail Group budget",
+    "cues": [
+      "Dana Liu CFO proposal",
+      "Northwind cost review",
+      "Dana Liu budget overage"
+    ],
+    "value": "Dana Liu stated the dual-region requirement stands and she will take the $355k cost overage to the CFO, noting that the timing is poor due to a company-wide cost review this quarter.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:35",
+    "history": []
+  },
+  {
+    "id": "m66",
+    "abstraction": "Dana Liu CFO proposal",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m67",
+    "abstraction": "Northwind cost review",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m68",
+    "abstraction": "Dana Liu budget overage",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m69",
+    "abstraction": "Marcus Bell's identity resolution work timeline",
+    "cues": [
+      "Marcus Bell work timeline",
+      "Marcus Bell identity resolution",
+      "Marcus Bell sprint estimate"
+    ],
+    "value": "Marcus Bell confirmed that the identity resolution work completed in 2.5 sprints, slightly exceeding his January estimate.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:30:35",
+    "history": []
+  },
+  {
+    "id": "m70",
+    "abstraction": "Marcus Bell work timeline",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m71",
+    "abstraction": "Marcus Bell identity resolution",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m72",
+    "abstraction": "Marcus Bell sprint estimate",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m73",
+    "abstraction": "Northwind Retail Group CFO cost review meeting details",
+    "cues": [
+      "Northwind Retail cost review",
+      "Dana Liu meeting attendance",
+      "Sam Okafor meeting attendance"
+    ],
+    "value": "On March 3, 2026, Dana Liu and Sam Okafor attended a CFO cost review meeting for the Northwind Retail Group account.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:08",
+    "history": []
+  },
+  {
+    "id": "m74",
+    "abstraction": "Northwind Retail cost review",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m75",
+    "abstraction": "Dana Liu meeting attendance",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m76",
+    "abstraction": "Sam Okafor meeting attendance",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m77",
+    "abstraction": "Dana Liu's stance on 2026 migration budget cap",
+    "cues": [
+      "Dana Liu budget cap",
+      "Northwind Retail budget cap"
+    ],
+    "value": "Dana Liu explicitly stated that the reduced $240k migration budget for calendar year 2026 is a hard cap, not a target.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:08",
+    "history": []
+  },
+  {
+    "id": "m78",
+    "abstraction": "Dana Liu budget cap",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m79",
+    "abstraction": "Northwind Retail budget cap",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m80",
+    "abstraction": "Dana Liu's guidance on EU residency requirement and scope cuts",
+    "cues": [
+      "Dana Liu EU residency",
+      "Dana Liu cost strategy"
+    ],
+    "value": "Dana Liu instructed to keep the EU residency requirement because it is a legal obligation, and suggested deferring work rather than descoping to cut costs.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:08",
+    "history": []
+  },
+  {
+    "id": "m81",
+    "abstraction": "Dana Liu EU residency",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m82",
+    "abstraction": "Dana Liu cost strategy",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m83",
+    "abstraction": "Impact of budget cut on June 30 go-live",
+    "cues": [
+      "Sam Okafor go-live feasibility",
+      "Dana Liu project options"
+    ],
+    "value": "Sam Okafor questioned whether the June 30 go-live is feasible given the $60k budget cut and dual-region work, and Dana Liu asked for options by the next sync.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:08",
+    "history": []
+  },
+  {
+    "id": "m84",
+    "abstraction": "Sam Okafor go-live feasibility",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m85",
+    "abstraction": "Dana Liu project options",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m86",
+    "abstraction": "Signoff authority for Northwind Retail Group budget decision",
+    "cues": [
+      "Dana Liu signoff authority",
+      "Northwind Retail budget signoff"
+    ],
+    "value": "Dana Liu retains signoff authority for the Northwind Retail Group budget decision.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:08",
+    "history": []
+  },
+  {
+    "id": "m87",
+    "abstraction": "Dana Liu signoff authority",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m88",
+    "abstraction": "Northwind Retail budget signoff",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m89",
+    "abstraction": "Northwind Retail Group meeting date and attendees",
+    "cues": [
+      "Northwind Retail meeting",
+      "Northwind Retail budget cap",
+      "Dana Liu meeting"
+    ],
+    "value": "On 2026-03-17, Dana Liu, Priya Raman, Marcus Bell, and Carlos R. attended a meeting regarding Northwind Retail Group's phasing options under a $240k cap.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:39",
+    "history": []
+  },
+  {
+    "id": "m90",
+    "abstraction": "Northwind Retail meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m91",
+    "abstraction": "Northwind Retail Group phasing Option A",
+    "cues": [
+      "Northwind Retail Option A",
+      "Black Friday go-live"
+    ],
+    "value": "Option A involved full scope and slipping go-live to Q4, but was rejected because it misses Black Friday entirely.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:39",
+    "history": []
+  },
+  {
+    "id": "m92",
+    "abstraction": "Northwind Retail Option A",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m93",
+    "abstraction": "Black Friday go-live",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m94",
+    "abstraction": "Northwind Retail Group phasing Option B",
+    "cues": [
+      "Northwind Retail Option B",
+      "EU enclave phase 2"
+    ],
+    "value": "Option B involved US-only scope at go-live with the EU enclave as phase 2, fitting the $240k cap at approximately $232k.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:39",
+    "history": []
+  },
+  {
+    "id": "m95",
+    "abstraction": "Northwind Retail Option B",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m96",
+    "abstraction": "EU enclave phase 2",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m97",
+    "abstraction": "Northwind Retail Group phasing Option C",
+    "cues": [
+      "Northwind Retail Option C",
+      "Priya Raman Segment migration",
+      "Segment campaign attribution"
+    ],
+    "value": "Option C proposed cutting the Segment source from the initial migration, which Priya rejected because campaign attribution lives in Segment.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:39",
+    "history": []
+  },
+  {
+    "id": "m98",
+    "abstraction": "Northwind Retail Option C",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m99",
+    "abstraction": "Priya Raman Segment migration",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m100",
+    "abstraction": "Segment campaign attribution",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m101",
+    "abstraction": "Status of Northwind Retail Group phasing decision",
+    "cues": [
+      "Northwind Retail decision status",
+      "Dana Liu confirmation"
+    ],
+    "value": "The decision on the phasing options is not yet finalized because Dana wants Helena's confirmation before committing.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:31:39",
+    "history": []
+  },
+  {
+    "id": "m102",
+    "abstraction": "Northwind Retail decision status",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m103",
+    "abstraction": "Dana Liu confirmation",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m104",
+    "abstraction": "Northwind Retail Group meeting attendees and date",
+    "cues": [
+      "Northwind Retail meeting",
+      "Northwind team members"
+    ],
+    "value": "On April 7, 2026, a meeting regarding Northwind Retail Group was held with attendees Dana Liu, Priya Raman, Marcus Bell, and Carlos R.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:32:15",
+    "history": []
+  },
+  {
+    "id": "m105",
+    "abstraction": "Northwind team members",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m106",
+    "abstraction": "Marcus Bell's sprint requirements for Northwind project",
+    "cues": [
+      "Marcus Bell sprint planning",
+      "loyalty database fix"
+    ],
+    "value": "Marcus Bell requires two additional sprints to fix the loyalty database fuzzy identity resolution issues.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:32:15",
+    "history": []
+  },
+  {
+    "id": "m107",
+    "abstraction": "Marcus Bell sprint planning",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m108",
+    "abstraction": "loyalty database fix",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m109",
+    "abstraction": "Priya Raman's assessment of Black Friday calendar slack",
+    "cues": [
+      "Priya Raman project schedule",
+      "Black Friday calendar planning"
+    ],
+    "value": "Priya Raman accepted the August 15 go-live date but noted that the Black Friday calendar now has no slack.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:32:15",
+    "history": []
+  },
+  {
+    "id": "m110",
+    "abstraction": "Priya Raman project schedule",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m111",
+    "abstraction": "Black Friday calendar planning",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m112",
+    "abstraction": "Northwind Retail Group Braze contract termination",
+    "cues": [
+      "Northwind Braze contract",
+      "Northwind procurement decision"
+    ],
+    "value": "Northwind's Braze contract ends on July 31, 2026, and procurement decided not to renew it, removing Braze from the project scope.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:32:15",
+    "history": []
+  },
+  {
+    "id": "m113",
+    "abstraction": "Northwind Braze contract",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m114",
+    "abstraction": "Northwind procurement decision",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m115",
+    "abstraction": "Helena confirmation on Option B for EU profile migration and clause 7.3",
+    "cues": [
+      "Helena migration decision",
+      "EU profile migration",
+      "Northwind Retail compliance"
+    ],
+    "value": "Helena confirmed Option B (excluding EU profiles entirely from the initial migration rather than migrating them to a US region), which satisfies clause 7.3 for Northwind Retail Group.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:32:15",
+    "history": [
+      {
+        "index": "Helena sign-off requirement for EU profile migration and clause 7.3",
+        "value": "Helena needs to sign off on excluding EU profiles entirely from the initial migration rather than migrating them to a US region, satisfying clause 7.3.",
+        "creation_time": "2026-07-25 01:31:39",
+        "timestamp": ""
+      },
+      {
+        "index": "Helena's confirmation on Option B and clause 7.3",
+        "value": "Helena confirmed that Option B satisfies clause 7.3 for Northwind Retail Group.",
+        "creation_time": "2026-07-25 01:32:15",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m116",
+    "abstraction": "Helena migration decision",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m117",
+    "abstraction": "EU profile migration",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m118",
+    "abstraction": "Northwind Retail compliance",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m119",
+    "abstraction": "Northwind Retail Group consensus and EU enclave plan",
+    "cues": [
+      "Northwind Retail consensus",
+      "EU enclave phase 2",
+      "EU enclave budget"
+    ],
+    "value": "Consensus formed around Option B, where the EU enclave is formally designated as phase 2 for Northwind Retail Group with its own budget line in 2027.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:32:15",
+    "history": [
+      {
+        "index": "Northwind Retail Group consensus and EU enclave plan",
+        "value": "Consensus formed around Option B, where the EU enclave moves to phase 2 with its own budget line in 2027.",
+        "creation_time": "2026-07-25 01:31:39",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group EU enclave phase",
+        "value": "The EU enclave is formally designated as phase 2 for Northwind Retail Group.",
+        "creation_time": "2026-07-25 01:32:15",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m120",
+    "abstraction": "Northwind Retail consensus",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m121",
+    "abstraction": "EU enclave budget",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m122",
+    "abstraction": "Northwind Retail Group sponsor handoff meeting attendees",
+    "cues": [
+      "Northwind Retail sponsor handoff",
+      "Dana Liu meeting attendance",
+      "Marcus Bell meeting attendance"
+    ],
+    "value": "On April 21, 2026, Dana Liu, Marcus Bell, and Sam Okafor attended the sponsor handoff meeting for the Northwind Retail Group account.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:15",
+    "history": []
+  },
+  {
+    "id": "m123",
+    "abstraction": "Northwind Retail sponsor handoff",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m124",
+    "abstraction": "Marcus Bell meeting attendance",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m125",
+    "abstraction": "Dana Liu's parental leave timeline",
+    "cues": [
+      "Dana Liu parental leave",
+      "Dana Liu leave schedule"
+    ],
+    "value": "Dana Liu begins parental leave on May 1, 2026, and returns on June 15, 2026.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:15",
+    "history": []
+  },
+  {
+    "id": "m126",
+    "abstraction": "Dana Liu parental leave",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m127",
+    "abstraction": "Dana Liu leave schedule",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m128",
+    "abstraction": "Marcus Bell's role as interim executive sponsor",
+    "cues": [
+      "Marcus Bell interim sponsor",
+      "Northwind Retail migration signoff"
+    ],
+    "value": "Marcus Bell takes over as interim executive sponsor for the Northwind Retail Group account during Dana Liu's leave and holds migration signoff authority.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:15",
+    "history": []
+  },
+  {
+    "id": "m129",
+    "abstraction": "Marcus Bell interim sponsor",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m130",
+    "abstraction": "Northwind Retail migration signoff",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m131",
+    "abstraction": "Marcus Bell's authority limits for Northwind Retail Group",
+    "cues": [
+      "Marcus Bell scope authority",
+      "Northwind Retail budget cap",
+      "Marcus Bell budget limits"
+    ],
+    "value": "Marcus Bell can approve scope and schedule changes, but does not have budget authority; any changes to the $240k budget cap must wait for Dana Liu's return or go directly to the CFO.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:15",
+    "history": []
+  },
+  {
+    "id": "m132",
+    "abstraction": "Marcus Bell scope authority",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m133",
+    "abstraction": "Marcus Bell budget limits",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m134",
+    "abstraction": "Northwind Retail Group migration handoff details",
+    "cues": [
+      "Northwind Retail go-live schedule",
+      "EU enclave phase deferral"
+    ],
+    "value": "Handoff details for Northwind Retail Group specify that the EU enclave is deferred to phase 2, go-live is scheduled for August 15, 2026, with Salesforce-only and 1,200 seats.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:15",
+    "history": []
+  },
+  {
+    "id": "m135",
+    "abstraction": "Northwind Retail go-live schedule",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m136",
+    "abstraction": "EU enclave phase deferral",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m137",
+    "abstraction": "Northwind Retail Group standing sync meeting chair",
+    "cues": [
+      "Marcus Bell sync chair",
+      "Northwind Retail standing sync"
+    ],
+    "value": "The standing sync for the Northwind Retail Group account will continue, with Marcus Bell chairing the meetings.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:15",
+    "history": []
+  },
+  {
+    "id": "m138",
+    "abstraction": "Marcus Bell sync chair",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m139",
+    "abstraction": "Northwind Retail standing sync",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m140",
+    "abstraction": "Northwind Retail Group identity resolution meeting details",
+    "cues": [
+      "Marcus Bell meeting",
+      "Northwind Retail identity resolution",
+      "Tom Reyes meeting"
+    ],
+    "value": "On May 5, 2026, Marcus Bell chaired a meeting regarding the identity resolution threshold fix for Northwind Retail Group, with attendees Tom Reyes and Carlos R.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:46",
+    "history": []
+  },
+  {
+    "id": "m141",
+    "abstraction": "Northwind Retail identity resolution",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m142",
+    "abstraction": "Tom Reyes meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m143",
+    "abstraction": "Northwind Retail Group false-merge rate improvement",
+    "cues": [
+      "Northwind Retail false-merge rate",
+      "Tom Reyes phone normalization",
+      "Northwind Retail disambiguation rule"
+    ],
+    "value": "The false-merge rate dropped to 0.7%, below the 1% threshold, after Tom Reyes's team added phone-number normalization and a household-level disambiguation rule.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:46",
+    "history": []
+  },
+  {
+    "id": "m144",
+    "abstraction": "Northwind Retail false-merge rate",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m145",
+    "abstraction": "Tom Reyes phone normalization",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m146",
+    "abstraction": "Northwind Retail disambiguation rule",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m147",
+    "abstraction": "Northwind Retail Group unmerged singletons manual review plan",
+    "cues": [
+      "Northwind Retail unmerged singletons",
+      "Tom Reyes review estimate",
+      "Northwind Retail manual review"
+    ],
+    "value": "The remaining approximately 60,000 problem rows will be loaded as unmerged singletons and flagged for manual review post-go-live, which Tom Reyes estimates will take about 6 weeks of part-time work for two analysts.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:33:46",
+    "history": []
+  },
+  {
+    "id": "m148",
+    "abstraction": "Northwind Retail unmerged singletons",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m149",
+    "abstraction": "Tom Reyes review estimate",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m150",
+    "abstraction": "Northwind Retail manual review",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m151",
+    "abstraction": "Dana Liu's budget authority and meeting participation",
+    "cues": [
+      "Dana Liu budget authority",
+      "Marcus Bell budget authority"
+    ],
+    "value": "Dana Liu joined the May 19, 2026 meeting for ten minutes from leave specifically to handle budget matters because Marcus Bell does not hold budget authority.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:14",
+    "history": []
+  },
+  {
+    "id": "m152",
+    "abstraction": "Dana Liu budget authority",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m153",
+    "abstraction": "Marcus Bell budget authority",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m154",
+    "abstraction": "Northwind Retail Group migration budget, sponsorship, and cap conditions",
+    "cues": [
+      "Dana Liu executive sponsor",
+      "Northwind Retail migration budget",
+      "EU enclave deferral"
+    ],
+    "value": "Dana Liu, CTO of Northwind Retail Group, is the executive sponsor with final signoff on the migration plan. Although a board-approved migration budget of $300k for calendar year 2026 was initially confirmed and later cut to $240k during a CFO cost review, the CFO subsequently restored the budget to $265k as a strict cap for 2026, conditional on keeping the EU enclave deferred to 2027 and having no further scope additions; if EU enclave work restarts in 2026, the cap will revert to $240k.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:14",
+    "history": [
+      {
+        "index": "Northwind Retail Group migration budget and sponsorship",
+        "value": "Dana Liu, CTO of Northwind Retail Group, is the executive sponsor with final signoff on the migration plan, and confirmed a board-approved migration budget of $300k for calendar year 2026.",
+        "creation_time": "2026-07-25 01:28:57",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group 2026 migration budget cut",
+        "value": "The CFO cost review did not approve the budget increase and cut the Northwind Retail Group migration budget for calendar year 2026 from $300k to $240k.",
+        "creation_time": "2026-07-25 01:31:08",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group 2026 migration budget restoration",
+        "value": "The CFO restored Northwind Retail Group's 2026 migration budget from $240k to $265k, conditional on keeping the EU enclave deferred to 2027 and having no further scope additions in 2026.",
+        "creation_time": "2026-07-25 01:34:14",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group 2026 migration budget cap condition",
+        "value": "The restored $265k budget is a strict new cap for Northwind Retail Group in 2026, and if EU enclave work restarts in 2026, the cap will revert to $240k.",
+        "creation_time": "2026-07-25 01:34:14",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m155",
+    "abstraction": "Dana Liu executive sponsor",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m156",
+    "abstraction": "Northwind Retail migration budget",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m157",
+    "abstraction": "EU enclave deferral",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m158",
+    "abstraction": "Marcus Bell meeting chair role",
+    "cues": [
+      "Marcus Bell meeting chair"
+    ],
+    "value": "Marcus Bell resumes chairing meetings after the May 19, 2026 session.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:14",
+    "history": []
+  },
+  {
+    "id": "m159",
+    "abstraction": "Marcus Bell meeting chair",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m160",
+    "abstraction": "Attendees of Northwind Retail Group outbound platform meeting",
+    "cues": [
+      "Northwind Retail Group meeting",
+      "Outbound platform attendees",
+      "Marcus Bell meeting"
+    ],
+    "value": "Marcus Bell, Priya Raman, and Carlos R. attended a meeting on June 2, 2026, regarding Northwind Retail Group's outbound platform selection.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:49",
+    "history": []
+  },
+  {
+    "id": "m161",
+    "abstraction": "Northwind Retail Group meeting",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m162",
+    "abstraction": "Outbound platform attendees",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m163",
+    "abstraction": "Northwind Retail Group go-live integration scope including Salesforce and Klaviyo",
+    "cues": [
+      "Northwind Retail integration",
+      "Salesforce system record",
+      "Priya Raman tool replacement"
+    ],
+    "value": "The go-live integration scope for Northwind Retail Group consists of Salesforce and Klaviyo, with Salesforce serving as the system of record for accounts, while Priya Raman's team selects a replacement tool for Braze in Q2 to run outbound communications.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:49",
+    "history": [
+      {
+        "index": "Northwind Retail Group go-live integration scope",
+        "value": "The integration scope for go-live includes Salesforce as the system of record for accounts and Braze for outbound messaging.",
+        "creation_time": "2026-07-25 01:28:57",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group integration scope and replacement selection",
+        "value": "Go-live integration scope is restricted to Salesforce only while Priya Raman's team selects a Braze replacement tool in Q2 to run outbound communications.",
+        "creation_time": "2026-07-25 01:32:15",
+        "timestamp": ""
+      },
+      {
+        "index": "Integration scope for Northwind Retail Group's go-live",
+        "value": "The go-live integration scope for Northwind Retail Group consists of Salesforce and Klaviyo.",
+        "creation_time": "2026-07-25 01:34:49",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m164",
+    "abstraction": "Northwind Retail integration",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m165",
+    "abstraction": "Salesforce system record",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m166",
+    "abstraction": "Priya Raman tool replacement",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m167",
+    "abstraction": "Priya Raman's requirement for Klaviyo sync",
+    "cues": [
+      "Priya Raman sync requirement",
+      "Klaviyo event-level sync",
+      "Campaign attribution cutover"
+    ],
+    "value": "Priya Raman requested event-level sync instead of just profile sync for the Klaviyo integration to ensure campaign attribution survives the cutover.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:49",
+    "history": []
+  },
+  {
+    "id": "m168",
+    "abstraction": "Priya Raman sync requirement",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m169",
+    "abstraction": "Klaviyo event-level sync",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m170",
+    "abstraction": "Campaign attribution cutover",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m171",
+    "abstraction": "Dispute on Klaviyo integration scope and budget condition",
+    "cues": [
+      "Carlos R. scope objection",
+      "Marcus Bell budget substitution",
+      "Klaviyo integration dispute"
+    ],
+    "value": "Carlos R. flagged the Klaviyo integration as a scope addition prohibited by the May 19 budget condition, but Marcus Bell considers replacing descoped Braze with Klaviyo a substitution and will confirm with Dana upon her return.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:34:49",
+    "history": []
+  },
+  {
+    "id": "m172",
+    "abstraction": "Carlos R. scope objection",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m173",
+    "abstraction": "Marcus Bell budget substitution",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m174",
+    "abstraction": "Klaviyo integration dispute",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m175",
+    "abstraction": "Dana Liu's return and role for Northwind Retail Group",
+    "cues": [
+      "Dana Liu return",
+      "Northwind Retail Group sponsorship",
+      "Dana Liu signoff authority"
+    ],
+    "value": "On June 16, 2026, Dana Liu returned from leave and resumed executive sponsorship and migration signoff authority for the Northwind Retail Group account.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:35:20",
+    "history": []
+  },
+  {
+    "id": "m176",
+    "abstraction": "Dana Liu return",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m177",
+    "abstraction": "Northwind Retail Group sponsorship",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m178",
+    "abstraction": "Marcus Bell's role scope",
+    "cues": [
+      "Marcus Bell engineering role",
+      "Marcus Bell scope return"
+    ],
+    "value": "On June 16, 2026, Marcus Bell returned to his VP Engineering scope.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:35:20",
+    "history": []
+  },
+  {
+    "id": "m179",
+    "abstraction": "Marcus Bell engineering role",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m180",
+    "abstraction": "Marcus Bell scope return",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m181",
+    "abstraction": "Northwind Retail Group Klaviyo substitution and budget cap",
+    "cues": [
+      "Northwind Retail Klaviyo switch",
+      "Dana Liu budget cap",
+      "Klaviyo Braze replacement"
+    ],
+    "value": "Northwind Retail Group selected Klaviyo to replace Braze, signing the contract on May 28, 2026, with an effective date of August 1, 2026, aligning with Braze's end date of July 31, 2026. Dana Liu confirmed that Klaviyo is a direct substitution for Braze rather than a scope addition, maintaining the $265k budget cap without reverting.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:35:20",
+    "history": [
+      {
+        "index": "Northwind Retail Group's selection of Klaviyo",
+        "value": "Northwind Retail Group selected Klaviyo to replace Braze, signing the contract on May 28, 2026, with an effective date of August 1, 2026, aligning with Braze's end date of July 31, 2026.",
+        "creation_time": "2026-07-25 01:34:49",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group Klaviyo substitution and budget cap",
+        "value": "Dana Liu confirmed that Klaviyo is a substitution for Braze rather than a scope addition, maintaining the $265k cap without reverting.",
+        "creation_time": "2026-07-25 01:35:20",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m182",
+    "abstraction": "Northwind Retail Klaviyo switch",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m183",
+    "abstraction": "Klaviyo Braze replacement",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m184",
+    "abstraction": "Northwind Retail Group migration target go-live date history, change reasons, and final confirmation",
+    "cues": [
+      "Northwind Retail migration",
+      "Northwind data quality",
+      "Klaviyo connector delay"
+    ],
+    "value": "The target go-live date was originally June 30, 2026, aligned with Northwind's pre-holiday campaign planning cycle, as Priya Raman noted that going past July puts the Black Friday calendar at risk. During the January 28, 2026 review, no changes were made to the budget or timeline, reconfirming the June 30, 2026 go-live date. However, the go-live date subsequently slipped from June 30 to August 15 due to data quality issues, specifically a 6.1% false-merge rate in fuzzy identity resolution on the loyalty database against a 1% acceptance threshold. To keep the August 15, 2026 go-live date on schedule, Marcus Bell approved loading the remaining problem rows as unmerged singletons for post-go-live review. Later, the go-live date for Northwind Retail Group was moved from August 15 to September 1, 2026, because of the Klaviyo connector and the August 1, 2026 Klaviyo contract start, avoiding Priya Raman's concern of a two-week mid-cutover window for outbound systems; this date was confirmed as final by Dana Liu.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:35:20",
+    "history": [
+      {
+        "index": "Northwind Retail Group migration target go-live date",
+        "value": "The target go-live date is June 30, 2026, aligned with Northwind's pre-holiday campaign planning cycle, as Priya Raman noted that going past July puts the Black Friday calendar at risk.",
+        "creation_time": "2026-07-25 01:28:57",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group go-live timeline and budget",
+        "value": "There were no changes to the budget or timeline discussed during the January 28, 2026 review, and the go-live date remains June 30, 2026.",
+        "creation_time": "2026-07-25 01:29:41",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group go-live timeline slip cause",
+        "value": "The go-live date for Northwind Retail Group slipped from June 30 to August 15 due to data quality issues, specifically a 6.1% false-merge rate in fuzzy identity resolution on the loyalty database against a 1% acceptance threshold.",
+        "creation_time": "2026-07-25 01:32:15",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group go-live date and approval",
+        "value": "Marcus Bell approved loading the remaining problem rows as unmerged singletons for post-go-live review, keeping the August 15, 2026 go-live date on schedule.",
+        "creation_time": "2026-07-25 01:33:46",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group go-live date update",
+        "value": "The go-live date for Northwind Retail Group was moved from August 15 to September 1, 2026, and was confirmed as final by Dana Liu.",
+        "creation_time": "2026-07-25 01:35:20",
+        "timestamp": ""
+      },
+      {
+        "index": "Reason for Northwind Retail Group go-live date change",
+        "value": "The go-live date was moved to September 1, 2026, because of the Klaviyo connector and the August 1, 2026 Klaviyo contract start, avoiding Priya Raman's concern of a two-week mid-cutover window for outbound systems.",
+        "creation_time": "2026-07-25 01:35:20",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m185",
+    "abstraction": "Northwind Retail migration",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m186",
+    "abstraction": "Northwind data quality",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m187",
+    "abstraction": "Klaviyo connector delay",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m188",
+    "abstraction": "Northwind Retail Group current state of record",
+    "cues": [
+      "Northwind Retail Group state of record",
+      "EU enclave deferral",
+      "Northwind Retail Group system active"
+    ],
+    "value": "The current state of record for Northwind Retail Group includes a $265k cap, a September 1, 2026 go-live, 1,500 seats, Salesforce and Klaviyo active at go-live, EU enclave deferred to 2027 phase 2, and Dana Liu holding signoff authority.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:35:20",
+    "history": []
+  },
+  {
+    "id": "m189",
+    "abstraction": "Northwind Retail Group state of record",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m190",
+    "abstraction": "Northwind Retail Group system active",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m191",
+    "abstraction": "Northwind Retail Group contract meeting attendees and date",
+    "cues": [
+      "Northwind Retail meeting",
+      "Dana Liu contract",
+      "Helena Vogt contract"
+    ],
+    "value": "On June 30, 2026, Dana Liu, Helena Vogt, and Sam Okafor attended a meeting to finalize SLA and support contract terms for Northwind Retail Group.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:14",
+    "history": []
+  },
+  {
+    "id": "m192",
+    "abstraction": "Dana Liu contract",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m193",
+    "abstraction": "Helena Vogt contract",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m194",
+    "abstraction": "Northwind Retail Group seat expansion and agreement terms",
+    "cues": [
+      "Northwind Retail seat expansion",
+      "Northwind analytics workspace",
+      "Northwind agreement terms"
+    ],
+    "value": "Northwind Retail Group expanded its seat count from 1,200 to 1,500 as Northwind's analytics organization is being folded into the same workspace. Service terms for the 1,500-seat agreement were finalized on June 30, 2026.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:14",
+    "history": [
+      {
+        "index": "Northwind Retail Group seat expansion",
+        "value": "Northwind Retail Group expanded its seat count from 1,200 to 1,500 as Northwind's analytics organization is being folded into the same workspace.",
+        "creation_time": "2026-07-25 01:34:14",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group agreement seat count",
+        "value": "Service terms were finalized on June 30, 2026, for Northwind Retail Group's 1,500-seat agreement.",
+        "creation_time": "2026-07-25 01:36:14",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m195",
+    "abstraction": "Northwind Retail seat expansion",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m196",
+    "abstraction": "Northwind analytics workspace",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m197",
+    "abstraction": "Northwind agreement terms",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m198",
+    "abstraction": "Northwind Retail Group uptime SLA and breach terms",
+    "cues": [
+      "Northwind Retail uptime SLA",
+      "Northwind Retail breach terms",
+      "Northwind Retail service credits"
+    ],
+    "value": "The monthly uptime SLA for Northwind Retail Group is 99.9%, excluding scheduled maintenance windows announced 72 hours ahead, with a 14-day breach remediation window from written notice and service credits of 5% of monthly fees per breach incident capped at 25% quarterly.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:14",
+    "history": []
+  },
+  {
+    "id": "m199",
+    "abstraction": "Northwind Retail uptime SLA",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m200",
+    "abstraction": "Northwind Retail breach terms",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m201",
+    "abstraction": "Northwind Retail service credits",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m202",
+    "abstraction": "Ana Duarte support contact",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m203",
+    "abstraction": "Northwind Retail Group clause 7.3 and project timeline",
+    "cues": [
+      "Helena Vogt phase 2",
+      "Northwind Retail go-live date",
+      "Northwind Retail clause 7.3"
+    ],
+    "value": "Helena Vogt confirmed that clause 7.3 remains in force for phase 2 planning, maintaining the September 1, 2026 go-live date and $265k cap for Northwind Retail Group.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:14",
+    "history": []
+  },
+  {
+    "id": "m204",
+    "abstraction": "Helena Vogt phase 2",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m205",
+    "abstraction": "Northwind Retail go-live date",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m206",
+    "abstraction": "Northwind Retail clause 7.3",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m207",
+    "abstraction": "Northwind Retail Group pre-launch review date and attendees",
+    "cues": [
+      "Northwind Retail readiness review",
+      "Dana Liu pre-launch review"
+    ],
+    "value": "On July 14, 2026, a pre-launch readiness review for Northwind Retail Group was held with attendees Dana Liu, Marcus Bell, Priya Raman, Tom Reyes, and Carlos R.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": []
+  },
+  {
+    "id": "m208",
+    "abstraction": "Northwind Retail readiness review",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m209",
+    "abstraction": "Dana Liu pre-launch review",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m210",
+    "abstraction": "Northwind Retail Group Salesforce connector status",
+    "cues": [
+      "Northwind Retail Salesforce connector",
+      "Salesforce connector UAT"
+    ],
+    "value": "As of July 14, 2026, the Salesforce connector for Northwind Retail Group is complete and in UAT.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": []
+  },
+  {
+    "id": "m211",
+    "abstraction": "Northwind Retail Salesforce connector",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m212",
+    "abstraction": "Salesforce connector UAT",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m213",
+    "abstraction": "Northwind Retail Group Klaviyo connector status and effort",
+    "cues": [
+      "Klaviyo connector effort",
+      "Northwind Retail Group connector",
+      "Klaviyo connector progress"
+    ],
+    "value": "The estimated effort to build the Klaviyo connector for Northwind Retail Group is 1.5 sprints. As of July 14, 2026, the connector is 70% complete and on track for completion on August 8, 2026.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": [
+      {
+        "index": "Effort estimate for Northwind Retail Group's Klaviyo connector",
+        "value": "The estimated effort to build the Klaviyo connector for Northwind Retail Group is 1.5 sprints.",
+        "creation_time": "2026-07-25 01:34:49",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group Klaviyo connector status",
+        "value": "As of July 14, 2026, the Klaviyo connector for Northwind Retail Group is 70% complete and on track for completion on August 8, 2026.",
+        "creation_time": "2026-07-25 01:36:41",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m214",
+    "abstraction": "Klaviyo connector effort",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m215",
+    "abstraction": "Northwind Retail Group connector",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m216",
+    "abstraction": "Klaviyo connector progress",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m217",
+    "abstraction": "Northwind Retail Group identity resolution status and singleton queue",
+    "cues": [
+      "Northwind Retail identity resolution",
+      "Northwind Retail singleton queue",
+      "Northwind Retail merge rate"
+    ],
+    "value": "As of July 14, 2026, identity resolution for Northwind Retail Group is holding at a 0.6% false-merge rate, with roughly 340,000 of the original 400,000 problem rows resolving cleanly and the unmerged singleton queue sitting at 58,000 records, staffed as planned.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": [
+      {
+        "index": "Northwind Retail Group identity resolution problem rows status",
+        "value": "Roughly 340,000 of the original 400,000 problem rows for Northwind Retail Group now resolve cleanly.",
+        "creation_time": "2026-07-25 01:33:46",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group identity resolution and singleton queue status",
+        "value": "As of July 14, 2026, identity resolution for Northwind Retail Group is holding at a 0.6% false-merge rate, and the unmerged singleton queue sits at 58,000 records, staffed as planned.",
+        "creation_time": "2026-07-25 01:36:41",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m218",
+    "abstraction": "Northwind Retail singleton queue",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m219",
+    "abstraction": "Northwind Retail merge rate",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m220",
+    "abstraction": "Ana Duarte's departure from Northwind Retail Group",
+    "cues": [
+      "Ana Duarte departure",
+      "Ana Duarte support contact",
+      "Northwind Retail Oracle steward"
+    ],
+    "value": "Ana Duarte, the named support contact and Oracle data steward for Northwind Retail Group, is leaving on August 21, 2026.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": []
+  },
+  {
+    "id": "m221",
+    "abstraction": "Ana Duarte departure",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m222",
+    "abstraction": "Northwind Retail Oracle steward",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m223",
+    "abstraction": "Northwind Retail Group support tier and contact handover plan",
+    "cues": [
+      "Northwind Retail support tier",
+      "Ana Duarte support contact",
+      "Northwind Retail contact handover"
+    ],
+    "value": "Northwind Retail Group's support tier is Premier, offering a 1-hour response for P1 and 4-hour for P2 issues, with Ana Duarte as the named support contact on Northwind's side. Dana Liu will name a replacement for Ana Duarte by August 1, 2026, and ticket NW-4417 tracks the handover.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": [
+      {
+        "index": "Northwind Retail Group support tier and contact person",
+        "value": "Northwind Retail Group's support tier is Premier, offering a 1-hour response for P1 and 4-hour for P2 issues, with Ana Duarte as the named support contact on Northwind's side.",
+        "creation_time": "2026-07-25 01:36:14",
+        "timestamp": ""
+      },
+      {
+        "index": "Northwind Retail Group support contact handover and replacement plan",
+        "value": "Dana Liu will name a replacement for Ana Duarte by August 1, 2026, and ticket NW-4417 tracks the handover.",
+        "creation_time": "2026-07-25 01:36:41",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "id": "m224",
+    "abstraction": "Northwind Retail support tier",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m225",
+    "abstraction": "Northwind Retail contact handover",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m226",
+    "abstraction": "Northwind Retail Group project budget, scope, and launch date",
+    "cues": [
+      "Northwind Retail launch budget",
+      "Northwind Retail launch date"
+    ],
+    "value": "As of July 14, 2026, there is no change to budget, scope, date, or signoff for Northwind Retail Group, holding the September 1, 2026 launch at $265,000.",
+    "memory_type": "factual",
+    "timestamp": "2026-07-25 01:36:41",
+    "history": []
+  },
+  {
+    "id": "m227",
+    "abstraction": "Northwind Retail launch budget",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  },
+  {
+    "id": "m228",
+    "abstraction": "Northwind Retail launch date",
+    "cues": [],
+    "value": "",
+    "memory_type": "factual",
+    "timestamp": "",
+    "history": []
+  }
+]

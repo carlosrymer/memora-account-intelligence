@@ -1,0 +1,118 @@
+{
+  "corpus": {
+    "notes": 14,
+    "words": 1549,
+    "tokens": 2730,
+    "date_range": [
+      "2026-01-14",
+      "2026-07-14"
+    ]
+  },
+  "memora": {
+    "memories": 229,
+    "cue_anchors": 175,
+    "cue_edges": 17,
+    "shared_cues": 11,
+    "per_note": [
+      {
+        "file": "2026-01-14-kickoff.md",
+        "date": "2026-01-14",
+        "entries": 9
+      },
+      {
+        "file": "2026-01-28-data-mapping.md",
+        "date": "2026-01-28",
+        "entries": 5
+      },
+      {
+        "file": "2026-02-11-dpa-review.md",
+        "date": "2026-02-11",
+        "entries": 6
+      },
+      {
+        "file": "2026-02-25-dual-region-costing.md",
+        "date": "2026-02-25",
+        "entries": 5
+      },
+      {
+        "file": "2026-03-03-budget-cut.md",
+        "date": "2026-03-03",
+        "entries": 6
+      },
+      {
+        "file": "2026-03-17-phasing-options.md",
+        "date": "2026-03-17",
+        "entries": 7
+      },
+      {
+        "file": "2026-04-07-timeline-slip.md",
+        "date": "2026-04-07",
+        "entries": 8
+      },
+      {
+        "file": "2026-04-21-sponsor-handoff.md",
+        "date": "2026-04-21",
+        "entries": 6
+      },
+      {
+        "file": "2026-05-05-identity-resolution-fix.md",
+        "date": "2026-05-05",
+        "entries": 5
+      },
+      {
+        "file": "2026-05-19-seat-expansion.md",
+        "date": "2026-05-19",
+        "entries": 6
+      },
+      {
+        "file": "2026-06-02-klaviyo-selection.md",
+        "date": "2026-06-02",
+        "entries": 6
+      },
+      {
+        "file": "2026-06-16-dana-returns.md",
+        "date": "2026-06-16",
+        "entries": 6
+      },
+      {
+        "file": "2026-06-30-sla-terms.md",
+        "date": "2026-06-30",
+        "entries": 5
+      },
+      {
+        "file": "2026-07-14-prelaunch-readiness.md",
+        "date": "2026-07-14",
+        "entries": 7
+      }
+    ]
+  },
+  "models": {
+    "chat": "gemini-3.6-flash",
+    "embedding": "gemini-embedding-001",
+    "provider": "Gemini (OpenAI-compatible endpoint)"
+  },
+  "memora_commit": "dec3f8f2444eace7004fc084abe1be9f3d88270e",
+  "token_note": "Counted with tiktoken cl100k_base for a consistent relative comparison; Gemini's tokenizer differs, so these are not exact billing counts.",
+  "scoreboard": {
+    "memora": {
+      "correct": 6,
+      "partial": 0,
+      "wrong": 0
+    },
+    "rag": {
+      "correct": 6,
+      "partial": 0,
+      "wrong": 0
+    },
+    "full": {
+      "correct": 6,
+      "partial": 0,
+      "wrong": 0
+    }
+  },
+  "avg_context_tokens": {
+    "memora": 477,
+    "rag": 753,
+    "full": 2730
+  }
+}

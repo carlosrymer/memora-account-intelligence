@@ -1,0 +1,380 @@
+[
+  {
+    "file": "2026-01-05-ardent-kickoff.md",
+    "date": "2026-01-05",
+    "title": "Ardent Health Partners \u2014 migration kickoff",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-01-08-ardent-mapping.md",
+    "date": "2026-01-08",
+    "title": "Ardent Health Partners \u2014 data mapping review",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-01-11-ardent-risk.md",
+    "date": "2026-01-11",
+    "title": "Ardent Health Partners \u2014 schedule risk review",
+    "words": 40,
+    "distractor": true
+  },
+  {
+    "file": "2026-01-14-kickoff.md",
+    "date": "2026-01-14",
+    "title": "Northwind Retail Group \u2014 migration kickoff",
+    "words": 147
+  },
+  {
+    "file": "2026-01-14-ardent-budget.md",
+    "date": "2026-01-14",
+    "title": "Ardent Health Partners \u2014 budget revision",
+    "words": 47,
+    "distractor": true
+  },
+  {
+    "file": "2026-01-28-data-mapping.md",
+    "date": "2026-01-28",
+    "title": "Data mapping review",
+    "words": 104
+  },
+  {
+    "file": "2026-02-05-blue-kickoff.md",
+    "date": "2026-02-05",
+    "title": "Blue Harbor Financial \u2014 migration kickoff",
+    "words": 54,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-08-blue-mapping.md",
+    "date": "2026-02-08",
+    "title": "Blue Harbor Financial \u2014 data mapping review",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-11-dpa-review.md",
+    "date": "2026-02-11",
+    "title": "DPA / legal review \u2014 data residency constraint",
+    "words": 126
+  },
+  {
+    "file": "2026-02-11-blue-risk.md",
+    "date": "2026-02-11",
+    "title": "Blue Harbor Financial \u2014 schedule risk review",
+    "words": 40,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-14-blue-budget.md",
+    "date": "2026-02-14",
+    "title": "Blue Harbor Financial \u2014 budget revision",
+    "words": 47,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-17-ardent-timeline.md",
+    "date": "2026-02-17",
+    "title": "Ardent Health Partners \u2014 timeline change",
+    "words": 46,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-20-ardent-contract.md",
+    "date": "2026-02-20",
+    "title": "Ardent Health Partners \u2014 contract and SLA terms",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-23-ardent-readiness.md",
+    "date": "2026-02-23",
+    "title": "Ardent Health Partners \u2014 pre-launch readiness",
+    "words": 50,
+    "distractor": true
+  },
+  {
+    "file": "2026-02-25-dual-region-costing.md",
+    "date": "2026-02-25",
+    "title": "Dual-region architecture and cost delta",
+    "words": 102
+  },
+  {
+    "file": "2026-03-03-budget-cut.md",
+    "date": "2026-03-03",
+    "title": "Budget decision \u2014 CFO cost review",
+    "words": 110
+  },
+  {
+    "file": "2026-03-05-copperline-kickoff.md",
+    "date": "2026-03-05",
+    "title": "Copperline Logistics \u2014 migration kickoff",
+    "words": 54,
+    "distractor": true
+  },
+  {
+    "file": "2026-03-08-copperline-mapping.md",
+    "date": "2026-03-08",
+    "title": "Copperline Logistics \u2014 data mapping review",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-03-11-copperline-risk.md",
+    "date": "2026-03-11",
+    "title": "Copperline Logistics \u2014 schedule risk review",
+    "words": 40,
+    "distractor": true
+  },
+  {
+    "file": "2026-03-14-copperline-budget.md",
+    "date": "2026-03-14",
+    "title": "Copperline Logistics \u2014 budget revision",
+    "words": 46,
+    "distractor": true
+  },
+  {
+    "file": "2026-03-17-phasing-options.md",
+    "date": "2026-03-17",
+    "title": "Phasing options under the $240k cap",
+    "words": 123
+  },
+  {
+    "file": "2026-03-17-blue-timeline.md",
+    "date": "2026-03-17",
+    "title": "Blue Harbor Financial \u2014 timeline change",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-03-20-blue-contract.md",
+    "date": "2026-03-20",
+    "title": "Blue Harbor Financial \u2014 contract and SLA terms",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-03-23-blue-readiness.md",
+    "date": "2026-03-23",
+    "title": "Blue Harbor Financial \u2014 pre-launch readiness",
+    "words": 49,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-05-delta-kickoff.md",
+    "date": "2026-04-05",
+    "title": "Delta Grove Foods \u2014 migration kickoff",
+    "words": 54,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-07-timeline-slip.md",
+    "date": "2026-04-07",
+    "title": "Timeline slip and Braze contract change",
+    "words": 120
+  },
+  {
+    "file": "2026-04-08-delta-mapping.md",
+    "date": "2026-04-08",
+    "title": "Delta Grove Foods \u2014 data mapping review",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-11-delta-risk.md",
+    "date": "2026-04-11",
+    "title": "Delta Grove Foods \u2014 schedule risk review",
+    "words": 40,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-14-delta-budget.md",
+    "date": "2026-04-14",
+    "title": "Delta Grove Foods \u2014 budget revision",
+    "words": 47,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-17-copperline-timeline.md",
+    "date": "2026-04-17",
+    "title": "Copperline Logistics \u2014 timeline change",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-20-copperline-contract.md",
+    "date": "2026-04-20",
+    "title": "Copperline Logistics \u2014 contract and SLA terms",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-04-21-sponsor-handoff.md",
+    "date": "2026-04-21",
+    "title": "Sponsor handoff \u2014 Dana on leave",
+    "words": 95
+  },
+  {
+    "file": "2026-04-23-copperline-readiness.md",
+    "date": "2026-04-23",
+    "title": "Copperline Logistics \u2014 pre-launch readiness",
+    "words": 48,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-05-identity-resolution-fix.md",
+    "date": "2026-05-05",
+    "title": "Identity resolution \u2014 threshold fix",
+    "words": 83
+  },
+  {
+    "file": "2026-05-05-everline-kickoff.md",
+    "date": "2026-05-05",
+    "title": "Everline Media \u2014 migration kickoff",
+    "words": 54,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-08-everline-mapping.md",
+    "date": "2026-05-08",
+    "title": "Everline Media \u2014 data mapping review",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-11-everline-risk.md",
+    "date": "2026-05-11",
+    "title": "Everline Media \u2014 schedule risk review",
+    "words": 40,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-14-everline-budget.md",
+    "date": "2026-05-14",
+    "title": "Everline Media \u2014 budget revision",
+    "words": 46,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-17-delta-timeline.md",
+    "date": "2026-05-17",
+    "title": "Delta Grove Foods \u2014 timeline change",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-19-seat-expansion.md",
+    "date": "2026-05-19",
+    "title": "Seat expansion and partial budget restoration",
+    "words": 117
+  },
+  {
+    "file": "2026-05-20-delta-contract.md",
+    "date": "2026-05-20",
+    "title": "Delta Grove Foods \u2014 contract and SLA terms",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-05-23-delta-readiness.md",
+    "date": "2026-05-23",
+    "title": "Delta Grove Foods \u2014 pre-launch readiness",
+    "words": 49,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-02-klaviyo-selection.md",
+    "date": "2026-06-02",
+    "title": "Outbound platform selection \u2014 Klaviyo",
+    "words": 113
+  },
+  {
+    "file": "2026-06-05-fairmont-kickoff.md",
+    "date": "2026-06-05",
+    "title": "Fairmont Industrial \u2014 migration kickoff",
+    "words": 56,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-08-fairmont-mapping.md",
+    "date": "2026-06-08",
+    "title": "Fairmont Industrial \u2014 data mapping review",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-11-fairmont-risk.md",
+    "date": "2026-06-11",
+    "title": "Fairmont Industrial \u2014 schedule risk review",
+    "words": 40,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-14-fairmont-budget.md",
+    "date": "2026-06-14",
+    "title": "Fairmont Industrial \u2014 budget revision",
+    "words": 46,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-16-dana-returns.md",
+    "date": "2026-06-16",
+    "title": "Dana returns \u2014 signoff resumes, go-live confirmed",
+    "words": 122
+  },
+  {
+    "file": "2026-06-17-everline-timeline.md",
+    "date": "2026-06-17",
+    "title": "Everline Media \u2014 timeline change",
+    "words": 45,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-20-everline-contract.md",
+    "date": "2026-06-20",
+    "title": "Everline Media \u2014 contract and SLA terms",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-23-everline-readiness.md",
+    "date": "2026-06-23",
+    "title": "Everline Media \u2014 pre-launch readiness",
+    "words": 48,
+    "distractor": true
+  },
+  {
+    "file": "2026-06-30-sla-terms.md",
+    "date": "2026-06-30",
+    "title": "Contract terms \u2014 SLA and support",
+    "words": 97
+  },
+  {
+    "file": "2026-07-14-prelaunch-readiness.md",
+    "date": "2026-07-14",
+    "title": "Pre-launch readiness review",
+    "words": 90
+  },
+  {
+    "file": "2026-07-17-fairmont-timeline.md",
+    "date": "2026-07-17",
+    "title": "Fairmont Industrial \u2014 timeline change",
+    "words": 47,
+    "distractor": true
+  },
+  {
+    "file": "2026-07-20-fairmont-contract.md",
+    "date": "2026-07-20",
+    "title": "Fairmont Industrial \u2014 contract and SLA terms",
+    "words": 55,
+    "distractor": true
+  },
+  {
+    "file": "2026-07-23-fairmont-readiness.md",
+    "date": "2026-07-23",
+    "title": "Fairmont Industrial \u2014 pre-launch readiness",
+    "words": 50,
+    "distractor": true
+  }
+]

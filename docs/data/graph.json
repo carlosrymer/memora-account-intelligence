@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "source": "m140",
+      "target": "m20",
+      "cue": "marcus bell meeting"
+    },
+    {
+      "source": "m140",
+      "target": "m160",
+      "cue": "marcus bell meeting"
+    },
+    {
+      "source": "m160",
+      "target": "m20",
+      "cue": "marcus bell meeting"
+    },
+    {
+      "source": "m53",
+      "target": "m89",
+      "cue": "dana liu meeting"
+    },
+    {
+      "source": "m122",
+      "target": "m73",
+      "cue": "dana liu meeting attendance"
+    },
+    {
+      "source": "m181",
+      "target": "m77",
+      "cue": "dana liu budget cap"
+    },
+    {
+      "source": "m77",
+      "target": "m89",
+      "cue": "northwind retail budget cap"
+    },
+    {
+      "source": "m131",
+      "target": "m77",
+      "cue": "northwind retail budget cap"
+    },
+    {
+      "source": "m131",
+      "target": "m89",
+      "cue": "northwind retail budget cap"
+    },
+    {
+      "source": "m175",
+      "target": "m86",
+      "cue": "dana liu signoff authority"
+    },
+    {
+      "source": "m104",
+      "target": "m89",
+      "cue": "northwind retail meeting"
+    },
+    {
+      "source": "m104",
+      "target": "m191",
+      "cue": "northwind retail meeting"
+    },
+    {
+      "source": "m191",
+      "target": "m89",
+      "cue": "northwind retail meeting"
+    },
+    {
+      "source": "m119",
+      "target": "m94",
+      "cue": "eu enclave phase 2"
+    },
+    {
+      "source": "m140",
+      "target": "m217",
+      "cue": "northwind retail identity resolution"
+    },
+    {
+      "source": "m154",
+      "target": "m188",
+      "cue": "eu enclave deferral"
+    },
+    {
+      "source": "m220",
+      "target": "m223",
+      "cue": "ana duarte support contact"
+    }
+  ],
+  "shared_cues": 11
+}

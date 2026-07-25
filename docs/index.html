@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory X-ray — Memora on a B2B account</title>
+<meta name="description" content="Microsoft Research's Memora (ICML 2026) over six months of client meeting notes, versus a naive RAG baseline. Every memory and every retrieval shown.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-palette="#2a78d6,#eb6834,#1baf7a">
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Frontier build · trialling <strong>Memora</strong></p>
+    <h1>What does this account actually owe us <em>right now</em>?</h1>
+    <p class="lede">
+      Six months of meeting notes for one B2B account. The budget changed three times, the
+      go-live date twice, the signoff owner left and came back. Answering
+      &ldquo;what is true today&rdquo; is not a search problem — it is a memory problem.
+    </p>
+    <p class="sub">
+      This page runs <a href="https://github.com/microsoft/Memora">Memora</a>, the harmonic
+      memory representation Microsoft Research presented at <strong>ICML 2026</strong>, over
+      that corpus — and puts it head-to-head with a conventional chunk-and-embed RAG baseline
+      on the same notes, same embedder, same answering model.
+    </p>
+    <div class="hero-meta" id="heroMeta"></div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section aria-labelledby="tiles-h">
+    <h2 id="tiles-h" class="sr-only">Corpus and memory statistics</h2>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section aria-labelledby="score-h">
+    <h2 id="score-h">Does it get the answer right?</h2>
+    <p class="section-lede">
+      Six questions whose correct answer depends on knowing which version of a fact is
+      current. Each condition retrieves its own context; the answering model and prompt are
+      identical. Graded against a written reference answer.
+    </p>
+    <div class="scoreboard" id="scoreboard"></div>
+    <details class="table-view">
+      <summary>Table view</summary>
+      <div class="table-scroll"><table id="scoreTable"></table></div>
+    </details>
+  </section>
+
+  <section aria-labelledby="ctx-h">
+    <h2 id="ctx-h">What it costs to be right</h2>
+    <p class="section-lede">
+      Average context tokens sent to the answering model per question.
+    </p>
+    <div class="bars" id="tokenBars"></div>
+    <p class="footnote" id="tokenNote"></p>
+  </section>
+
+  <section aria-labelledby="q-h">
+    <h2 id="q-h">The X-ray</h2>
+    <p class="section-lede">
+      Pick a question. See exactly what each system pulled, and what it answered.
+    </p>
+    <div class="qpicker" id="qpicker" role="tablist" aria-label="Questions"></div>
+    <div id="qdetail"></div>
+  </section>
+
+  <section aria-labelledby="mem-h">
+    <h2 id="mem-h">Inside the memory</h2>
+    <p class="section-lede">
+      Every memory Memora built from the notes. Each is stored in three parts: a
+      <strong>primary abstraction</strong> (the only thing embedded for search), the
+      <strong>memory value</strong> (kept whole, never summarized), and
+      <strong>cue anchors</strong> — alternate ways back to it.
+    </p>
+    <div class="cuebar">
+      <label for="cueFilter">Filter by cue anchor</label>
+      <select id="cueFilter"></select>
+      <span class="cuehint" id="cueHint"></span>
+    </div>
+    <div class="memgrid" id="memgrid"></div>
+    <div class="memmore" id="memMore"></div>
+  </section>
+
+  <section aria-labelledby="verdict-h" class="verdict">
+    <h2 id="verdict-h">Honest verdict</h2>
+    <div id="verdict"></div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>
+    Built as a frontier-model trial. Corpus and account are fictional.
+    <a href="https://github.com/carlosrymer/memora-account-intelligence">Source &amp; method</a> ·
+    <a href="https://github.com/microsoft/Memora">Memora</a> ·
+    <a href="https://arxiv.org/abs/2602.03315">Paper</a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

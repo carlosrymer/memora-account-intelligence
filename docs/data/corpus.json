@@ -1,0 +1,86 @@
+[
+  {
+    "file": "2026-01-14-kickoff.md",
+    "date": "2026-01-14",
+    "title": "Northwind Retail Group \u2014 migration kickoff",
+    "text": "# Northwind Retail Group \u2014 migration kickoff\n\nDate: 2026-01-14\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu (CTO, Northwind), Priya Raman (Dir. Lifecycle Marketing),\nSam Okafor (Lumen CDP, AE), Carlos R. (Lumen CDP, Solutions).\n\nNorthwind is consolidating three legacy marketing databases onto Lumen CDP. Dana confirmed\nthe board approved a migration budget of $300k for calendar 2026. She is the executive\nsponsor and owns final signoff on the migration plan.\n\nTarget go-live is June 30, 2026, aligned to their pre-holiday campaign planning cycle.\nPriya flagged that anything past July puts the Black Friday calendar at risk.\n\nInitial contract is for 1,200 seats across marketing and analytics. Integration scope for\ngo-live is Salesforce (system of record for accounts) and Braze (outbound messaging).\nPriya's team currently sends roughly 4.2M messages/month through Braze.\n\nDana asked us to hold a standing biweekly Tuesday sync. Action items: Lumen to deliver a\ndata mapping draft by Jan 28; Northwind to nominate a data steward per source system.\n"
+  },
+  {
+    "file": "2026-01-28-data-mapping.md",
+    "date": "2026-01-28",
+    "title": "Data mapping review",
+    "text": "# Data mapping review\n\nDate: 2026-01-28\nAccount: Northwind Retail Group\n\nAttendees: Priya Raman, Marcus Bell (VP Engineering, Northwind), Carlos R.\n\nWalked the data mapping draft. Three legacy sources: an on-prem Oracle instance (customer\nmaster, ~9.4M profiles), a Postgres loyalty database (~3.1M members), and a Segment\nwarehouse export.\n\nMarcus raised that the loyalty database has no reliable primary key across 2019-2021\nrecords \u2014 roughly 400k rows will need fuzzy identity resolution. He estimated two\nengineering sprints. This is the first real schedule risk anyone has named.\n\nPriya confirmed the data steward assignments: Ana Duarte for Oracle, Tom Reyes for loyalty,\nPriya herself for Segment.\n\nNo change to budget or timeline discussed. Go-live remains June 30.\n"
+  },
+  {
+    "file": "2026-02-11-dpa-review.md",
+    "date": "2026-02-11",
+    "title": "DPA / legal review \u2014 data residency constraint",
+    "text": "# DPA / legal review \u2014 data residency constraint\n\nDate: 2026-02-11\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Helena Vogt (Northwind Legal), Sam Okafor, Carlos R.\n\nNorthwind Legal completed the data processing agreement review. Helena introduced a hard\nconstraint that was not in the original scope: all EU customer data must remain resident\nin the EU. Specifically, EU profiles must be stored and processed in eu-central-1\n(Frankfurt) and must not transit US regions, including for backup or analytics.\n\nThis traces to DPA clause 7.3, which Helena will not waive. Roughly 2.8M of the 9.4M\nprofiles are EU-resident.\n\nDana was clear this is non-negotiable and gates go-live for the EU segment. Carlos noted\nthis likely requires a dual-region deployment topology, which was not in the January\nestimate.\n\nAction: Lumen to come back with a dual-region architecture and cost delta by Feb 25.\n"
+  },
+  {
+    "file": "2026-02-25-dual-region-costing.md",
+    "date": "2026-02-25",
+    "title": "Dual-region architecture and cost delta",
+    "text": "# Dual-region architecture and cost delta\n\nDate: 2026-02-25\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Carlos R.\n\nPresented dual-region topology: primary in us-east-1, EU enclave in eu-central-1, with\nidentity resolution running independently per region. No cross-region profile joins.\n\nCost delta for dual-region is approximately $55k in year one, driven by duplicated\ncompute for identity resolution and a second Kafka cluster.\n\nDana's reaction: the requirement stands, but $355k total exceeds the approved $300k. She\nwill take it to the CFO. Flagged that the CFO is running a company-wide cost review this\nquarter, so the timing is poor.\n\nMarcus separately confirmed the identity resolution work landed at 2.5 sprints, slightly\nover his January estimate.\n"
+  },
+  {
+    "file": "2026-03-03-budget-cut.md",
+    "date": "2026-03-03",
+    "title": "Budget decision \u2014 CFO cost review",
+    "text": "# Budget decision \u2014 CFO cost review\n\nDate: 2026-03-03\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Sam Okafor.\n\nBad news. The CFO's cost review did not approve the increase. Worse, the migration budget\nwas cut from $300k to $240k for calendar 2026. Dana was explicit that this is a hard cap,\nnot a target.\n\nDana's guidance: keep the EU residency requirement (it is a legal obligation, not a\npreference) and find scope to cut elsewhere. She suggested we look at deferring rather\nthan descoping.\n\nSam asked directly whether the June 30 go-live survives a $60k cut plus dual-region work.\nDana said she did not know yet and asked for options by the next sync.\n\nSignoff authority is unchanged \u2014 Dana still owns it.\n"
+  },
+  {
+    "file": "2026-03-17-phasing-options.md",
+    "date": "2026-03-17",
+    "title": "Phasing options under the $240k cap",
+    "text": "# Phasing options under the $240k cap\n\nDate: 2026-03-17\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Priya Raman, Marcus Bell, Carlos R.\n\nPresented three options against the $240k cap:\n\nOption A \u2014 full scope, slip go-live to Q4. Rejected; misses Black Friday entirely.\nOption B \u2014 US-only at go-live, EU enclave as phase 2. Fits the cap at ~$232k.\nOption C \u2014 cut Segment source from initial migration. Priya rejected; Segment is where\ncampaign attribution lives.\n\nConsensus formed around Option B. The EU enclave moves to phase 2 with its own budget line\nin 2027. Important nuance Helena will need to sign off on: EU profiles are *excluded* from\nthe initial migration entirely rather than migrated to a US region, which keeps clause 7.3\nsatisfied.\n\nNot yet a decision \u2014 Dana wants Helena's confirmation before committing.\n"
+  },
+  {
+    "file": "2026-04-07-timeline-slip.md",
+    "date": "2026-04-07",
+    "title": "Timeline slip and Braze contract change",
+    "text": "# Timeline slip and Braze contract change\n\nDate: 2026-04-07\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Priya Raman, Marcus Bell, Carlos R.\n\nTwo changes.\n\nFirst, go-live slips from June 30 to August 15. Cause is data quality, not budget: the\nfuzzy identity resolution on the loyalty database is producing a 6.1% false-merge rate\nagainst a 1% acceptance threshold. Marcus needs two more sprints. Priya accepted August 15\nbut noted the Black Friday calendar now has no slack.\n\nSecond, Braze is out of scope. Northwind's Braze contract ends July 31 and procurement has\ndecided not to renew. Priya's team will run outbound on a replacement to be selected in Q2.\nSo go-live integration scope is now Salesforce only, pending that selection.\n\nHelena confirmed Option B satisfies clause 7.3. EU enclave is formally phase 2.\n"
+  },
+  {
+    "file": "2026-04-21-sponsor-handoff.md",
+    "date": "2026-04-21",
+    "title": "Sponsor handoff \u2014 Dana on leave",
+    "text": "# Sponsor handoff \u2014 Dana on leave\n\nDate: 2026-04-21\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Sam Okafor.\n\nDana begins parental leave on May 1 and returns June 15. Marcus Bell takes over as\ninterim executive sponsor and holds migration signoff authority in the interim.\n\nDana was specific about the boundary: Marcus can approve scope and schedule changes, but\nany change to the $240k budget cap must wait for her return or go to the CFO directly.\nMarcus does not have budget authority.\n\nHandoff notes captured: EU enclave deferred to phase 2, go-live August 15, Salesforce-only\nat go-live, 1,200 seats.\n\nStanding sync continues; Marcus will chair.\n"
+  },
+  {
+    "file": "2026-05-05-identity-resolution-fix.md",
+    "date": "2026-05-05",
+    "title": "Identity resolution \u2014 threshold fix",
+    "text": "# Identity resolution \u2014 threshold fix\n\nDate: 2026-05-05\nAccount: Northwind Retail Group\n\nAttendees: Marcus Bell, Tom Reyes, Carlos R.\n\nMarcus chairing. False-merge rate is down to 0.7%, under the 1% threshold, after Tom's team\nadded phone-number normalization and a household-level disambiguation rule.\n\nRoughly 340k of the original 400k problem rows now resolve cleanly. The remaining ~60k will\nbe loaded as unmerged singletons and flagged for manual review post-go-live. Tom estimates\nthat queue at about 6 weeks of part-time work for two analysts.\n\nMarcus approved this approach \u2014 within his scope authority. August 15 go-live holds.\n"
+  },
+  {
+    "file": "2026-05-19-seat-expansion.md",
+    "date": "2026-05-19",
+    "title": "Seat expansion and partial budget restoration",
+    "text": "# Seat expansion and partial budget restoration\n\nDate: 2026-05-19\nAccount: Northwind Retail Group\n\nAttendees: Marcus Bell, Priya Raman, Sam Okafor, Dana Liu (dialed in briefly).\n\nDana joined for ten minutes from leave specifically to handle budget, since Marcus does not\nhold that authority.\n\nTwo commercial changes. First, seat count expands from 1,200 to 1,500 \u2014 Northwind's\nanalytics org is being folded into the same workspace. Second, the CFO released partial\nrelief: the 2026 migration budget is restored from $240k to $265k, conditional on the EU\nenclave remaining deferred to 2027 and no further scope additions this year.\n\nDana was explicit that $265k is the new cap and that the condition is binding \u2014 if EU work\nrestarts in 2026, the cap reverts to $240k.\n\nMarcus resumes chairing after this session.\n"
+  },
+  {
+    "file": "2026-06-02-klaviyo-selection.md",
+    "date": "2026-06-02",
+    "title": "Outbound platform selection \u2014 Klaviyo",
+    "text": "# Outbound platform selection \u2014 Klaviyo\n\nDate: 2026-06-02\nAccount: Northwind Retail Group\n\nAttendees: Marcus Bell, Priya Raman, Carlos R.\n\nNorthwind selected Klaviyo as the Braze replacement. Contract signed May 28, effective\nAugust 1, which lines up with the Braze end date of July 31.\n\nKlaviyo is now in scope for go-live. Integration scope is therefore Salesforce and Klaviyo.\nPriya wants event-level sync, not just profile sync, so campaign attribution survives the\ncutover.\n\nCarlos flagged this is a scope addition, and the May 19 budget condition prohibits scope\nadditions this year. Marcus's read: replacing Braze with Klaviyo is substitution, not\naddition, since Braze was already descoped. He will confirm with Dana on her return rather\nthan escalate now.\n\nEffort estimate for the Klaviyo connector: 1.5 sprints.\n"
+  },
+  {
+    "file": "2026-06-16-dana-returns.md",
+    "date": "2026-06-16",
+    "title": "Dana returns \u2014 signoff resumes, go-live confirmed",
+    "text": "# Dana returns \u2014 signoff resumes, go-live confirmed\n\nDate: 2026-06-16\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Priya Raman, Sam Okafor, Carlos R.\n\nDana back from leave and resumes executive sponsorship and migration signoff authority\neffective today. Marcus returns to VP Engineering scope.\n\nDana confirmed Marcus's reading on Klaviyo: substitution for Braze, not a scope addition,\nso the $265k cap holds and does not revert.\n\nGo-live moves from August 15 to September 1. Reason is the Klaviyo connector plus the\nAugust 1 Klaviyo contract start \u2014 Priya did not want a two-week window where outbound is\nmid-cutover during go-live. September 1 is confirmed and Dana called it final.\n\nCurrent state of record: $265k cap, September 1 go-live, 1,500 seats, Salesforce + Klaviyo\nat go-live, EU enclave deferred to 2027 phase 2, Dana holds signoff.\n"
+  },
+  {
+    "file": "2026-06-30-sla-terms.md",
+    "date": "2026-06-30",
+    "title": "Contract terms \u2014 SLA and support",
+    "text": "# Contract terms \u2014 SLA and support\n\nDate: 2026-06-30\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Helena Vogt, Sam Okafor.\n\nFinalized service terms for the 1,500-seat agreement.\n\nUptime SLA is 99.9% measured monthly, excluding scheduled maintenance windows announced 72\nhours ahead. Breach remediation window is 14 days from written notice. Service credits are\n5% of monthly fees per breach incident, capped at 25% in any quarter.\n\nSupport tier is Premier: 1-hour response for P1, 4-hour for P2. Named support contact is\nAna Duarte on Northwind's side.\n\nHelena confirmed clause 7.3 remains in force for phase 2 planning. Nothing in this\nagreement changes the September 1 go-live or the $265k cap.\n"
+  },
+  {
+    "file": "2026-07-14-prelaunch-readiness.md",
+    "date": "2026-07-14",
+    "title": "Pre-launch readiness review",
+    "text": "# Pre-launch readiness review\n\nDate: 2026-07-14\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Priya Raman, Tom Reyes, Carlos R.\n\nReadiness check against September 1.\n\nSalesforce connector: complete, in UAT. Klaviyo connector: 70% complete, on track for\nAugust 8. Identity resolution: holding at 0.6% false-merge. Unmerged singleton queue sits\nat 58k records, staffed as planned.\n\nOpen risk: Ana Duarte, the named support contact and Oracle data steward, is leaving\nNorthwind on August 21. Dana will name a replacement by August 1. Ticket NW-4417 tracks\nthe handover.\n\nNo change to budget, scope, date, or signoff. September 1 holds at $265k.\n"
+  }
+]

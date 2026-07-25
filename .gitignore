@@ -1,0 +1,16 @@
+# Memora is vendored by cloning at a pinned commit — see pipeline/README or the
+# setup step in the root README. Not committed (it has its own git history).
+pipeline/vendor/
+
+# Local stores rebuilt by run_build.py
+pipeline/.memory_store/
+pipeline/.rag_store/
+
+# Run logs
+pipeline/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

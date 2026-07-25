@@ -1,0 +1,20 @@
+# What Memora actually needs on the hosted-API path, plus this pipeline's own deps.
+# Deliberately NOT Memora's requirements.txt, which is the union of runtime and research
+# dependencies (torch, transformers, bitsandbytes, peft, mem0ai) — none of which are used
+# here. See pipeline/memora_gemini.py for how the unused heavy imports are stubbed.
+openai>=1.40
+chromadb>=0.5
+omegaconf>=2.3
+pydantic>=2.0
+tiktoken>=0.7
+numpy>=1.26
+rank-bm25>=0.2
+azure-identity>=1.17
+markdownify>=0.13
+python-docx>=1.1
+openpyxl>=3.1
+python-pptx>=0.6
+pypdf>=4.0
+tabulate>=0.9
+joblib>=1.4
+sqlalchemy>=2.0
