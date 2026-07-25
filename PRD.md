@@ -95,10 +95,19 @@ answering model could reconcile the conflicting values itself. The distractor ac
 exist because of that failure, and the original result is preserved in
 `pipeline/result_small_corpus.json` rather than deleted.
 
-Final scored results, and the honest read on whether Memora beat the baseline, are on the
-live page and in `docs/data/stats.json`. The token-efficiency claim (the paper reports up
-to 98% reduction) is reported here as measured, at this corpus size, with the caveat that
-the reduction scales with history length and this corpus is short.
+**3. Did Memora beat the baseline? No.** On the scaled corpus Memora scored **5/6** against
+**6/6** for the plain RAG baseline and **6/6** for full context. It won decisively on cost
+— 684 average context tokens against 851 for RAG and 7,122 for full context — but the
+accuracy claim did not hold here.
+
+The single miss is instructive rather than random: on "which integrations are in scope",
+Memora retrieved the correct memory *and* a consolidated entry that had merged three months
+of notes and asserted a superseded scope as current. Consolidation — the mechanism meant to
+make memory scale — is what produced the error. Full analysis in the README and on the live
+page.
+
+Read with the caveats in Risks below: one run, six questions, 56 notes. This is a data
+point, not a verdict on the paper.
 
 ## Risks / open questions
 

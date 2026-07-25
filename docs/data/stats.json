@@ -1,25 +1,45 @@
 {
   "corpus": {
-    "notes": 14,
-    "words": 1549,
-    "tokens": 2730,
+    "notes": 56,
+    "words": 3562,
+    "tokens": 7122,
     "date_range": [
-      "2026-01-14",
-      "2026-07-14"
+      "2026-01-05",
+      "2026-07-23"
     ],
     "signal_notes": 14,
-    "distractor_notes": 0
+    "distractor_notes": 42
   },
   "memora": {
-    "memories": 229,
-    "cue_anchors": 175,
-    "cue_edges": 17,
-    "shared_cues": 11,
+    "memories": 197,
+    "cue_anchors": 468,
+    "cue_edges": 42,
+    "shared_cues": 29,
     "per_note": [
+      {
+        "file": "2026-01-05-ardent-kickoff.md",
+        "date": "2026-01-05",
+        "entries": 7
+      },
+      {
+        "file": "2026-01-08-ardent-mapping.md",
+        "date": "2026-01-08",
+        "entries": 4
+      },
+      {
+        "file": "2026-01-11-ardent-risk.md",
+        "date": "2026-01-11",
+        "entries": 6
+      },
       {
         "file": "2026-01-14-kickoff.md",
         "date": "2026-01-14",
-        "entries": 9
+        "entries": 10
+      },
+      {
+        "file": "2026-01-14-ardent-budget.md",
+        "date": "2026-01-14",
+        "entries": 3
       },
       {
         "file": "2026-01-28-data-mapping.md",
@@ -27,8 +47,43 @@
         "entries": 5
       },
       {
+        "file": "2026-02-05-blue-kickoff.md",
+        "date": "2026-02-05",
+        "entries": 5
+      },
+      {
+        "file": "2026-02-08-blue-mapping.md",
+        "date": "2026-02-08",
+        "entries": 5
+      },
+      {
         "file": "2026-02-11-dpa-review.md",
         "date": "2026-02-11",
+        "entries": 6
+      },
+      {
+        "file": "2026-02-11-blue-risk.md",
+        "date": "2026-02-11",
+        "entries": 5
+      },
+      {
+        "file": "2026-02-14-blue-budget.md",
+        "date": "2026-02-14",
+        "entries": 4
+      },
+      {
+        "file": "2026-02-17-ardent-timeline.md",
+        "date": "2026-02-17",
+        "entries": 5
+      },
+      {
+        "file": "2026-02-20-ardent-contract.md",
+        "date": "2026-02-20",
+        "entries": 7
+      },
+      {
+        "file": "2026-02-23-ardent-readiness.md",
+        "date": "2026-02-23",
         "entries": 6
       },
       {
@@ -39,7 +94,27 @@
       {
         "file": "2026-03-03-budget-cut.md",
         "date": "2026-03-03",
+        "entries": 4
+      },
+      {
+        "file": "2026-03-05-copperline-kickoff.md",
+        "date": "2026-03-05",
+        "entries": 7
+      },
+      {
+        "file": "2026-03-08-copperline-mapping.md",
+        "date": "2026-03-08",
         "entries": 6
+      },
+      {
+        "file": "2026-03-11-copperline-risk.md",
+        "date": "2026-03-11",
+        "entries": 6
+      },
+      {
+        "file": "2026-03-14-copperline-budget.md",
+        "date": "2026-03-14",
+        "entries": 4
       },
       {
         "file": "2026-03-17-phasing-options.md",
@@ -47,14 +122,64 @@
         "entries": 7
       },
       {
+        "file": "2026-03-17-blue-timeline.md",
+        "date": "2026-03-17",
+        "entries": 6
+      },
+      {
+        "file": "2026-03-20-blue-contract.md",
+        "date": "2026-03-20",
+        "entries": 5
+      },
+      {
+        "file": "2026-03-23-blue-readiness.md",
+        "date": "2026-03-23",
+        "entries": 7
+      },
+      {
+        "file": "2026-04-05-delta-kickoff.md",
+        "date": "2026-04-05",
+        "entries": 7
+      },
+      {
         "file": "2026-04-07-timeline-slip.md",
         "date": "2026-04-07",
-        "entries": 8
+        "entries": 7
+      },
+      {
+        "file": "2026-04-08-delta-mapping.md",
+        "date": "2026-04-08",
+        "entries": 4
+      },
+      {
+        "file": "2026-04-11-delta-risk.md",
+        "date": "2026-04-11",
+        "entries": 5
+      },
+      {
+        "file": "2026-04-14-delta-budget.md",
+        "date": "2026-04-14",
+        "entries": 4
+      },
+      {
+        "file": "2026-04-17-copperline-timeline.md",
+        "date": "2026-04-17",
+        "entries": 5
+      },
+      {
+        "file": "2026-04-20-copperline-contract.md",
+        "date": "2026-04-20",
+        "entries": 6
       },
       {
         "file": "2026-04-21-sponsor-handoff.md",
         "date": "2026-04-21",
-        "entries": 6
+        "entries": 5
+      },
+      {
+        "file": "2026-04-23-copperline-readiness.md",
+        "date": "2026-04-23",
+        "entries": 7
       },
       {
         "file": "2026-05-05-identity-resolution-fix.md",
@@ -62,14 +187,69 @@
         "entries": 5
       },
       {
+        "file": "2026-05-05-everline-kickoff.md",
+        "date": "2026-05-05",
+        "entries": 4
+      },
+      {
+        "file": "2026-05-08-everline-mapping.md",
+        "date": "2026-05-08",
+        "entries": 5
+      },
+      {
+        "file": "2026-05-11-everline-risk.md",
+        "date": "2026-05-11",
+        "entries": 6
+      },
+      {
+        "file": "2026-05-14-everline-budget.md",
+        "date": "2026-05-14",
+        "entries": 4
+      },
+      {
+        "file": "2026-05-17-delta-timeline.md",
+        "date": "2026-05-17",
+        "entries": 6
+      },
+      {
         "file": "2026-05-19-seat-expansion.md",
         "date": "2026-05-19",
         "entries": 6
       },
       {
+        "file": "2026-05-20-delta-contract.md",
+        "date": "2026-05-20",
+        "entries": 7
+      },
+      {
+        "file": "2026-05-23-delta-readiness.md",
+        "date": "2026-05-23",
+        "entries": 6
+      },
+      {
         "file": "2026-06-02-klaviyo-selection.md",
         "date": "2026-06-02",
+        "entries": 8
+      },
+      {
+        "file": "2026-06-05-fairmont-kickoff.md",
+        "date": "2026-06-05",
         "entries": 6
+      },
+      {
+        "file": "2026-06-08-fairmont-mapping.md",
+        "date": "2026-06-08",
+        "entries": 3
+      },
+      {
+        "file": "2026-06-11-fairmont-risk.md",
+        "date": "2026-06-11",
+        "entries": 6
+      },
+      {
+        "file": "2026-06-14-fairmont-budget.md",
+        "date": "2026-06-14",
+        "entries": 5
       },
       {
         "file": "2026-06-16-dana-returns.md",
@@ -77,16 +257,47 @@
         "entries": 6
       },
       {
+        "file": "2026-06-17-everline-timeline.md",
+        "date": "2026-06-17",
+        "entries": 6
+      },
+      {
+        "file": "2026-06-20-everline-contract.md",
+        "date": "2026-06-20",
+        "entries": 4
+      },
+      {
+        "file": "2026-06-23-everline-readiness.md",
+        "date": "2026-06-23",
+        "entries": 8
+      },
+      {
         "file": "2026-06-30-sla-terms.md",
         "date": "2026-06-30",
-        "entries": 5
+        "entries": 7
       },
       {
         "file": "2026-07-14-prelaunch-readiness.md",
         "date": "2026-07-14",
         "entries": 7
+      },
+      {
+        "file": "2026-07-17-fairmont-timeline.md",
+        "date": "2026-07-17",
+        "entries": 5
+      },
+      {
+        "file": "2026-07-20-fairmont-contract.md",
+        "date": "2026-07-20",
+        "entries": 5
+      },
+      {
+        "file": "2026-07-23-fairmont-readiness.md",
+        "date": "2026-07-23",
+        "entries": 7
       }
-    ]
+    ],
+    "cue_index_rows": 430
   },
   "models": {
     "chat": "gemini-3.6-flash",
@@ -97,9 +308,9 @@
   "token_note": "Counted with tiktoken cl100k_base for a consistent relative comparison; Gemini's tokenizer differs, so these are not exact billing counts.",
   "scoreboard": {
     "memora": {
-      "correct": 6,
+      "correct": 5,
       "partial": 0,
-      "wrong": 0
+      "wrong": 1
     },
     "rag": {
       "correct": 6,
@@ -113,9 +324,9 @@
     }
   },
   "avg_context_tokens": {
-    "memora": 477,
-    "rag": 753,
-    "full": 2730
+    "memora": 684,
+    "rag": 851,
+    "full": 7122
   },
-  "small_corpus_note": "(placeholder - smoke test)"
+  "small_corpus_note": "An earlier run used only the 14 account notes \u2014 2,730 tokens total. Every condition, including no-retrieval-at-all, scored 6/6. That was an artifact of scale, not a result: with the whole corpus that small, retrieval barely had to work. Six distractor accounts discussing the same budgets, dates, sponsors and integrations were added so the right facts have to be found rather than stumbled into. Both runs are reported in the repo."
 }

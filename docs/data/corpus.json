@@ -1,9 +1,33 @@
 [
   {
+    "file": "2026-01-05-ardent-kickoff.md",
+    "date": "2026-01-05",
+    "title": "Ardent Health Partners \u2014 migration kickoff",
+    "text": "# Ardent Health Partners \u2014 migration kickoff\n\nDate: 2026-01-05\nAccount: Ardent Health Partners\n\nAttendees: Rafael Ortiz (CTO), Beth Ellery (Marketing Ops), Sam Okafor (Lumen CDP).\n\nRafael Ortiz confirmed a migration budget of $480k for calendar 2026 and is the executive\nsponsor with final signoff. Target go-live is May 4, 2026. Initial contract covers 900\nseats. Integration scope at go-live is Dynamics 365 and Iterable. Standing weekly sync agreed.\n"
+  },
+  {
+    "file": "2026-01-08-ardent-mapping.md",
+    "date": "2026-01-08",
+    "title": "Ardent Health Partners \u2014 data mapping review",
+    "text": "# Ardent Health Partners \u2014 data mapping review\n\nDate: 2026-01-08\nAccount: Ardent Health Partners\n\nAttendees: Nina Kowalski (VP Engineering), Beth Ellery, Carlos R.\n\nReviewed source systems. Nina Kowalski flagged identity resolution risk on legacy records and\nestimated two sprints. Data steward assignments confirmed. No change to the $480k budget\nor the May 4 go-live. Primary deployment region is us-west-2.\n"
+  },
+  {
+    "file": "2026-01-11-ardent-risk.md",
+    "date": "2026-01-11",
+    "title": "Ardent Health Partners \u2014 schedule risk review",
+    "text": "# Ardent Health Partners \u2014 schedule risk review\n\nDate: 2026-01-11\nAccount: Ardent Health Partners\n\nAttendees: Rafael Ortiz, Nina Kowalski, Carlos R.\n\nNina Kowalski reported the identity resolution false-merge rate above the 1% acceptance threshold.\nTwo additional sprints requested. Beth Ellery raised campaign calendar impact. Budget\nunchanged at $480k. Go-live under review, currently May 4.\n"
+  },
+  {
     "file": "2026-01-14-kickoff.md",
     "date": "2026-01-14",
     "title": "Northwind Retail Group \u2014 migration kickoff",
     "text": "# Northwind Retail Group \u2014 migration kickoff\n\nDate: 2026-01-14\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu (CTO, Northwind), Priya Raman (Dir. Lifecycle Marketing),\nSam Okafor (Lumen CDP, AE), Carlos R. (Lumen CDP, Solutions).\n\nNorthwind is consolidating three legacy marketing databases onto Lumen CDP. Dana confirmed\nthe board approved a migration budget of $300k for calendar 2026. She is the executive\nsponsor and owns final signoff on the migration plan.\n\nTarget go-live is June 30, 2026, aligned to their pre-holiday campaign planning cycle.\nPriya flagged that anything past July puts the Black Friday calendar at risk.\n\nInitial contract is for 1,200 seats across marketing and analytics. Integration scope for\ngo-live is Salesforce (system of record for accounts) and Braze (outbound messaging).\nPriya's team currently sends roughly 4.2M messages/month through Braze.\n\nDana asked us to hold a standing biweekly Tuesday sync. Action items: Lumen to deliver a\ndata mapping draft by Jan 28; Northwind to nominate a data steward per source system.\n"
+  },
+  {
+    "file": "2026-01-14-ardent-budget.md",
+    "date": "2026-01-14",
+    "title": "Ardent Health Partners \u2014 budget revision",
+    "text": "# Ardent Health Partners \u2014 budget revision\n\nDate: 2026-01-14\nAccount: Ardent Health Partners\n\nAttendees: Rafael Ortiz, Sam Okafor.\n\nFollowing the quarterly cost review, the 2026 migration budget for Ardent Health Partners moves from\n$480k to $520k. Rafael Ortiz described this as the operating cap for the year. Signoff\nauthority remains with Rafael Ortiz. No scope changes agreed at this session.\n"
   },
   {
     "file": "2026-01-28-data-mapping.md",
@@ -12,10 +36,52 @@
     "text": "# Data mapping review\n\nDate: 2026-01-28\nAccount: Northwind Retail Group\n\nAttendees: Priya Raman, Marcus Bell (VP Engineering, Northwind), Carlos R.\n\nWalked the data mapping draft. Three legacy sources: an on-prem Oracle instance (customer\nmaster, ~9.4M profiles), a Postgres loyalty database (~3.1M members), and a Segment\nwarehouse export.\n\nMarcus raised that the loyalty database has no reliable primary key across 2019-2021\nrecords \u2014 roughly 400k rows will need fuzzy identity resolution. He estimated two\nengineering sprints. This is the first real schedule risk anyone has named.\n\nPriya confirmed the data steward assignments: Ana Duarte for Oracle, Tom Reyes for loyalty,\nPriya herself for Segment.\n\nNo change to budget or timeline discussed. Go-live remains June 30.\n"
   },
   {
+    "file": "2026-02-05-blue-kickoff.md",
+    "date": "2026-02-05",
+    "title": "Blue Harbor Financial \u2014 migration kickoff",
+    "text": "# Blue Harbor Financial \u2014 migration kickoff\n\nDate: 2026-02-05\nAccount: Blue Harbor Financial\n\nAttendees: Yuki Tanaka (CTO), Deepa Shah (Marketing Ops), Sam Okafor (Lumen CDP).\n\nYuki Tanaka confirmed a migration budget of $610k for calendar 2026 and is the executive\nsponsor with final signoff. Target go-live is March 16, 2026. Initial contract covers 2400\nseats. Integration scope at go-live is Salesforce and Airship. Standing weekly sync agreed.\n"
+  },
+  {
+    "file": "2026-02-08-blue-mapping.md",
+    "date": "2026-02-08",
+    "title": "Blue Harbor Financial \u2014 data mapping review",
+    "text": "# Blue Harbor Financial \u2014 data mapping review\n\nDate: 2026-02-08\nAccount: Blue Harbor Financial\n\nAttendees: Owen Pratt (VP Engineering), Deepa Shah, Carlos R.\n\nReviewed source systems. Owen Pratt flagged identity resolution risk on legacy records and\nestimated two sprints. Data steward assignments confirmed. No change to the $610k budget\nor the March 16 go-live. Primary deployment region is ca-central-1.\n"
+  },
+  {
     "file": "2026-02-11-dpa-review.md",
     "date": "2026-02-11",
     "title": "DPA / legal review \u2014 data residency constraint",
     "text": "# DPA / legal review \u2014 data residency constraint\n\nDate: 2026-02-11\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Helena Vogt (Northwind Legal), Sam Okafor, Carlos R.\n\nNorthwind Legal completed the data processing agreement review. Helena introduced a hard\nconstraint that was not in the original scope: all EU customer data must remain resident\nin the EU. Specifically, EU profiles must be stored and processed in eu-central-1\n(Frankfurt) and must not transit US regions, including for backup or analytics.\n\nThis traces to DPA clause 7.3, which Helena will not waive. Roughly 2.8M of the 9.4M\nprofiles are EU-resident.\n\nDana was clear this is non-negotiable and gates go-live for the EU segment. Carlos noted\nthis likely requires a dual-region deployment topology, which was not in the January\nestimate.\n\nAction: Lumen to come back with a dual-region architecture and cost delta by Feb 25.\n"
+  },
+  {
+    "file": "2026-02-11-blue-risk.md",
+    "date": "2026-02-11",
+    "title": "Blue Harbor Financial \u2014 schedule risk review",
+    "text": "# Blue Harbor Financial \u2014 schedule risk review\n\nDate: 2026-02-11\nAccount: Blue Harbor Financial\n\nAttendees: Yuki Tanaka, Owen Pratt, Carlos R.\n\nOwen Pratt reported the identity resolution false-merge rate above the 1% acceptance threshold.\nTwo additional sprints requested. Deepa Shah raised campaign calendar impact. Budget\nunchanged at $610k. Go-live under review, currently March 16.\n"
+  },
+  {
+    "file": "2026-02-14-blue-budget.md",
+    "date": "2026-02-14",
+    "title": "Blue Harbor Financial \u2014 budget revision",
+    "text": "# Blue Harbor Financial \u2014 budget revision\n\nDate: 2026-02-14\nAccount: Blue Harbor Financial\n\nAttendees: Yuki Tanaka, Sam Okafor.\n\nFollowing the quarterly cost review, the 2026 migration budget for Blue Harbor Financial moves from\n$610k to $545k. Yuki Tanaka described this as the operating cap for the year. Signoff\nauthority remains with Yuki Tanaka. No scope changes agreed at this session.\n"
+  },
+  {
+    "file": "2026-02-17-ardent-timeline.md",
+    "date": "2026-02-17",
+    "title": "Ardent Health Partners \u2014 timeline change",
+    "text": "# Ardent Health Partners \u2014 timeline change\n\nDate: 2026-02-17\nAccount: Ardent Health Partners\n\nAttendees: Rafael Ortiz, Nina Kowalski, Beth Ellery, Carlos R.\n\nGo-live moves from May 4 to July 6, 2026. Cause is data quality remediation on legacy\nrecords, not budget. Beth Ellery accepted the new date. Integration scope holds at Dynamics 365\nand Iterable. Budget holds at $520k.\n"
+  },
+  {
+    "file": "2026-02-20-ardent-contract.md",
+    "date": "2026-02-20",
+    "title": "Ardent Health Partners \u2014 contract and SLA terms",
+    "text": "# Ardent Health Partners \u2014 contract and SLA terms\n\nDate: 2026-02-20\nAccount: Ardent Health Partners\n\nAttendees: Rafael Ortiz, legal counsel, Sam Okafor.\n\nFinalized terms for the 900-seat agreement. Uptime SLA is 99.9% monthly excluding\nannounced maintenance. Remediation window is 14 days from written notice. Service credits\nare 5% of monthly fees per incident. Deployment region is us-west-2. Nothing in this\nagreement changes the July 6 go-live or the $520k cap.\n"
+  },
+  {
+    "file": "2026-02-23-ardent-readiness.md",
+    "date": "2026-02-23",
+    "title": "Ardent Health Partners \u2014 pre-launch readiness",
+    "text": "# Ardent Health Partners \u2014 pre-launch readiness\n\nDate: 2026-02-23\nAccount: Ardent Health Partners\n\nAttendees: Rafael Ortiz, Nina Kowalski, Beth Ellery, Carlos R.\n\nReadiness check against July 6. Dynamics 365 connector complete and in UAT. Iterable connector\non track. Identity resolution holding under threshold. Open risk is support contact\ncoverage during cutover. No change to budget, scope, date, or signoff for Ardent Health Partners.\n"
   },
   {
     "file": "2026-02-25-dual-region-costing.md",
@@ -30,10 +96,58 @@
     "text": "# Budget decision \u2014 CFO cost review\n\nDate: 2026-03-03\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Sam Okafor.\n\nBad news. The CFO's cost review did not approve the increase. Worse, the migration budget\nwas cut from $300k to $240k for calendar 2026. Dana was explicit that this is a hard cap,\nnot a target.\n\nDana's guidance: keep the EU residency requirement (it is a legal obligation, not a\npreference) and find scope to cut elsewhere. She suggested we look at deferring rather\nthan descoping.\n\nSam asked directly whether the June 30 go-live survives a $60k cut plus dual-region work.\nDana said she did not know yet and asked for options by the next sync.\n\nSignoff authority is unchanged \u2014 Dana still owns it.\n"
   },
   {
+    "file": "2026-03-05-copperline-kickoff.md",
+    "date": "2026-03-05",
+    "title": "Copperline Logistics \u2014 migration kickoff",
+    "text": "# Copperline Logistics \u2014 migration kickoff\n\nDate: 2026-03-05\nAccount: Copperline Logistics\n\nAttendees: Marta Silva (CTO), Grace Whitfield (Marketing Ops), Sam Okafor (Lumen CDP).\n\nMarta Silva confirmed a migration budget of $175k for calendar 2026 and is the executive\nsponsor with final signoff. Target go-live is August 3, 2026. Initial contract covers 450\nseats. Integration scope at go-live is HubSpot and Customer.io. Standing weekly sync agreed.\n"
+  },
+  {
+    "file": "2026-03-08-copperline-mapping.md",
+    "date": "2026-03-08",
+    "title": "Copperline Logistics \u2014 data mapping review",
+    "text": "# Copperline Logistics \u2014 data mapping review\n\nDate: 2026-03-08\nAccount: Copperline Logistics\n\nAttendees: Ibrahim Diallo (VP Engineering), Grace Whitfield, Carlos R.\n\nReviewed source systems. Ibrahim Diallo flagged identity resolution risk on legacy records and\nestimated two sprints. Data steward assignments confirmed. No change to the $175k budget\nor the August 3 go-live. Primary deployment region is us-east-2.\n"
+  },
+  {
+    "file": "2026-03-11-copperline-risk.md",
+    "date": "2026-03-11",
+    "title": "Copperline Logistics \u2014 schedule risk review",
+    "text": "# Copperline Logistics \u2014 schedule risk review\n\nDate: 2026-03-11\nAccount: Copperline Logistics\n\nAttendees: Marta Silva, Ibrahim Diallo, Carlos R.\n\nIbrahim Diallo reported the identity resolution false-merge rate above the 1% acceptance threshold.\nTwo additional sprints requested. Grace Whitfield raised campaign calendar impact. Budget\nunchanged at $175k. Go-live under review, currently August 3.\n"
+  },
+  {
+    "file": "2026-03-14-copperline-budget.md",
+    "date": "2026-03-14",
+    "title": "Copperline Logistics \u2014 budget revision",
+    "text": "# Copperline Logistics \u2014 budget revision\n\nDate: 2026-03-14\nAccount: Copperline Logistics\n\nAttendees: Marta Silva, Sam Okafor.\n\nFollowing the quarterly cost review, the 2026 migration budget for Copperline Logistics moves from\n$175k to $210k. Marta Silva described this as the operating cap for the year. Signoff\nauthority remains with Marta Silva. No scope changes agreed at this session.\n"
+  },
+  {
     "file": "2026-03-17-phasing-options.md",
     "date": "2026-03-17",
     "title": "Phasing options under the $240k cap",
     "text": "# Phasing options under the $240k cap\n\nDate: 2026-03-17\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Priya Raman, Marcus Bell, Carlos R.\n\nPresented three options against the $240k cap:\n\nOption A \u2014 full scope, slip go-live to Q4. Rejected; misses Black Friday entirely.\nOption B \u2014 US-only at go-live, EU enclave as phase 2. Fits the cap at ~$232k.\nOption C \u2014 cut Segment source from initial migration. Priya rejected; Segment is where\ncampaign attribution lives.\n\nConsensus formed around Option B. The EU enclave moves to phase 2 with its own budget line\nin 2027. Important nuance Helena will need to sign off on: EU profiles are *excluded* from\nthe initial migration entirely rather than migrated to a US region, which keeps clause 7.3\nsatisfied.\n\nNot yet a decision \u2014 Dana wants Helena's confirmation before committing.\n"
+  },
+  {
+    "file": "2026-03-17-blue-timeline.md",
+    "date": "2026-03-17",
+    "title": "Blue Harbor Financial \u2014 timeline change",
+    "text": "# Blue Harbor Financial \u2014 timeline change\n\nDate: 2026-03-17\nAccount: Blue Harbor Financial\n\nAttendees: Yuki Tanaka, Owen Pratt, Deepa Shah, Carlos R.\n\nGo-live moves from March 16 to June 22, 2026. Cause is data quality remediation on legacy\nrecords, not budget. Deepa Shah accepted the new date. Integration scope holds at Salesforce\nand Airship. Budget holds at $545k.\n"
+  },
+  {
+    "file": "2026-03-20-blue-contract.md",
+    "date": "2026-03-20",
+    "title": "Blue Harbor Financial \u2014 contract and SLA terms",
+    "text": "# Blue Harbor Financial \u2014 contract and SLA terms\n\nDate: 2026-03-20\nAccount: Blue Harbor Financial\n\nAttendees: Yuki Tanaka, legal counsel, Sam Okafor.\n\nFinalized terms for the 2400-seat agreement. Uptime SLA is 99.9% monthly excluding\nannounced maintenance. Remediation window is 14 days from written notice. Service credits\nare 5% of monthly fees per incident. Deployment region is ca-central-1. Nothing in this\nagreement changes the June 22 go-live or the $545k cap.\n"
+  },
+  {
+    "file": "2026-03-23-blue-readiness.md",
+    "date": "2026-03-23",
+    "title": "Blue Harbor Financial \u2014 pre-launch readiness",
+    "text": "# Blue Harbor Financial \u2014 pre-launch readiness\n\nDate: 2026-03-23\nAccount: Blue Harbor Financial\n\nAttendees: Yuki Tanaka, Owen Pratt, Deepa Shah, Carlos R.\n\nReadiness check against June 22. Salesforce connector complete and in UAT. Airship connector\non track. Identity resolution holding under threshold. Open risk is support contact\ncoverage during cutover. No change to budget, scope, date, or signoff for Blue Harbor Financial.\n"
+  },
+  {
+    "file": "2026-04-05-delta-kickoff.md",
+    "date": "2026-04-05",
+    "title": "Delta Grove Foods \u2014 migration kickoff",
+    "text": "# Delta Grove Foods \u2014 migration kickoff\n\nDate: 2026-04-05\nAccount: Delta Grove Foods\n\nAttendees: Aaron Feld (CTO), Kenji Watanabe (Marketing Ops), Sam Okafor (Lumen CDP).\n\nAaron Feld confirmed a migration budget of $295k for calendar 2026 and is the executive\nsponsor with final signoff. Target go-live is February 9, 2026. Initial contract covers 1150\nseats. Integration scope at go-live is Salesforce and Braze. Standing weekly sync agreed.\n"
   },
   {
     "file": "2026-04-07-timeline-slip.md",
@@ -42,10 +156,46 @@
     "text": "# Timeline slip and Braze contract change\n\nDate: 2026-04-07\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Priya Raman, Marcus Bell, Carlos R.\n\nTwo changes.\n\nFirst, go-live slips from June 30 to August 15. Cause is data quality, not budget: the\nfuzzy identity resolution on the loyalty database is producing a 6.1% false-merge rate\nagainst a 1% acceptance threshold. Marcus needs two more sprints. Priya accepted August 15\nbut noted the Black Friday calendar now has no slack.\n\nSecond, Braze is out of scope. Northwind's Braze contract ends July 31 and procurement has\ndecided not to renew. Priya's team will run outbound on a replacement to be selected in Q2.\nSo go-live integration scope is now Salesforce only, pending that selection.\n\nHelena confirmed Option B satisfies clause 7.3. EU enclave is formally phase 2.\n"
   },
   {
+    "file": "2026-04-08-delta-mapping.md",
+    "date": "2026-04-08",
+    "title": "Delta Grove Foods \u2014 data mapping review",
+    "text": "# Delta Grove Foods \u2014 data mapping review\n\nDate: 2026-04-08\nAccount: Delta Grove Foods\n\nAttendees: Lucia Moreno (VP Engineering), Kenji Watanabe, Carlos R.\n\nReviewed source systems. Lucia Moreno flagged identity resolution risk on legacy records and\nestimated two sprints. Data steward assignments confirmed. No change to the $295k budget\nor the February 9 go-live. Primary deployment region is eu-west-1.\n"
+  },
+  {
+    "file": "2026-04-11-delta-risk.md",
+    "date": "2026-04-11",
+    "title": "Delta Grove Foods \u2014 schedule risk review",
+    "text": "# Delta Grove Foods \u2014 schedule risk review\n\nDate: 2026-04-11\nAccount: Delta Grove Foods\n\nAttendees: Aaron Feld, Lucia Moreno, Carlos R.\n\nLucia Moreno reported the identity resolution false-merge rate above the 1% acceptance threshold.\nTwo additional sprints requested. Kenji Watanabe raised campaign calendar impact. Budget\nunchanged at $295k. Go-live under review, currently February 9.\n"
+  },
+  {
+    "file": "2026-04-14-delta-budget.md",
+    "date": "2026-04-14",
+    "title": "Delta Grove Foods \u2014 budget revision",
+    "text": "# Delta Grove Foods \u2014 budget revision\n\nDate: 2026-04-14\nAccount: Delta Grove Foods\n\nAttendees: Aaron Feld, Sam Okafor.\n\nFollowing the quarterly cost review, the 2026 migration budget for Delta Grove Foods moves from\n$295k to $260k. Aaron Feld described this as the operating cap for the year. Signoff\nauthority remains with Aaron Feld. No scope changes agreed at this session.\n"
+  },
+  {
+    "file": "2026-04-17-copperline-timeline.md",
+    "date": "2026-04-17",
+    "title": "Copperline Logistics \u2014 timeline change",
+    "text": "# Copperline Logistics \u2014 timeline change\n\nDate: 2026-04-17\nAccount: Copperline Logistics\n\nAttendees: Marta Silva, Ibrahim Diallo, Grace Whitfield, Carlos R.\n\nGo-live moves from August 3 to October 12, 2026. Cause is data quality remediation on legacy\nrecords, not budget. Grace Whitfield accepted the new date. Integration scope holds at HubSpot\nand Customer.io. Budget holds at $210k.\n"
+  },
+  {
+    "file": "2026-04-20-copperline-contract.md",
+    "date": "2026-04-20",
+    "title": "Copperline Logistics \u2014 contract and SLA terms",
+    "text": "# Copperline Logistics \u2014 contract and SLA terms\n\nDate: 2026-04-20\nAccount: Copperline Logistics\n\nAttendees: Marta Silva, legal counsel, Sam Okafor.\n\nFinalized terms for the 450-seat agreement. Uptime SLA is 99.9% monthly excluding\nannounced maintenance. Remediation window is 14 days from written notice. Service credits\nare 5% of monthly fees per incident. Deployment region is us-east-2. Nothing in this\nagreement changes the October 12 go-live or the $210k cap.\n"
+  },
+  {
     "file": "2026-04-21-sponsor-handoff.md",
     "date": "2026-04-21",
     "title": "Sponsor handoff \u2014 Dana on leave",
     "text": "# Sponsor handoff \u2014 Dana on leave\n\nDate: 2026-04-21\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Sam Okafor.\n\nDana begins parental leave on May 1 and returns June 15. Marcus Bell takes over as\ninterim executive sponsor and holds migration signoff authority in the interim.\n\nDana was specific about the boundary: Marcus can approve scope and schedule changes, but\nany change to the $240k budget cap must wait for her return or go to the CFO directly.\nMarcus does not have budget authority.\n\nHandoff notes captured: EU enclave deferred to phase 2, go-live August 15, Salesforce-only\nat go-live, 1,200 seats.\n\nStanding sync continues; Marcus will chair.\n"
+  },
+  {
+    "file": "2026-04-23-copperline-readiness.md",
+    "date": "2026-04-23",
+    "title": "Copperline Logistics \u2014 pre-launch readiness",
+    "text": "# Copperline Logistics \u2014 pre-launch readiness\n\nDate: 2026-04-23\nAccount: Copperline Logistics\n\nAttendees: Marta Silva, Ibrahim Diallo, Grace Whitfield, Carlos R.\n\nReadiness check against October 12. HubSpot connector complete and in UAT. Customer.io connector\non track. Identity resolution holding under threshold. Open risk is support contact\ncoverage during cutover. No change to budget, scope, date, or signoff for Copperline Logistics.\n"
   },
   {
     "file": "2026-05-05-identity-resolution-fix.md",
@@ -54,10 +204,52 @@
     "text": "# Identity resolution \u2014 threshold fix\n\nDate: 2026-05-05\nAccount: Northwind Retail Group\n\nAttendees: Marcus Bell, Tom Reyes, Carlos R.\n\nMarcus chairing. False-merge rate is down to 0.7%, under the 1% threshold, after Tom's team\nadded phone-number normalization and a household-level disambiguation rule.\n\nRoughly 340k of the original 400k problem rows now resolve cleanly. The remaining ~60k will\nbe loaded as unmerged singletons and flagged for manual review post-go-live. Tom estimates\nthat queue at about 6 weeks of part-time work for two analysts.\n\nMarcus approved this approach \u2014 within his scope authority. August 15 go-live holds.\n"
   },
   {
+    "file": "2026-05-05-everline-kickoff.md",
+    "date": "2026-05-05",
+    "title": "Everline Media \u2014 migration kickoff",
+    "text": "# Everline Media \u2014 migration kickoff\n\nDate: 2026-05-05\nAccount: Everline Media\n\nAttendees: Sonia Achebe (CTO), Ravi Menon (Marketing Ops), Sam Okafor (Lumen CDP).\n\nSonia Achebe confirmed a migration budget of $140k for calendar 2026 and is the executive\nsponsor with final signoff. Target go-live is June 1, 2026. Initial contract covers 320\nseats. Integration scope at go-live is Pipedrive and Klaviyo. Standing weekly sync agreed.\n"
+  },
+  {
+    "file": "2026-05-08-everline-mapping.md",
+    "date": "2026-05-08",
+    "title": "Everline Media \u2014 data mapping review",
+    "text": "# Everline Media \u2014 data mapping review\n\nDate: 2026-05-08\nAccount: Everline Media\n\nAttendees: Peter Lindqvist (VP Engineering), Ravi Menon, Carlos R.\n\nReviewed source systems. Peter Lindqvist flagged identity resolution risk on legacy records and\nestimated two sprints. Data steward assignments confirmed. No change to the $140k budget\nor the June 1 go-live. Primary deployment region is ap-southeast-2.\n"
+  },
+  {
+    "file": "2026-05-11-everline-risk.md",
+    "date": "2026-05-11",
+    "title": "Everline Media \u2014 schedule risk review",
+    "text": "# Everline Media \u2014 schedule risk review\n\nDate: 2026-05-11\nAccount: Everline Media\n\nAttendees: Sonia Achebe, Peter Lindqvist, Carlos R.\n\nPeter Lindqvist reported the identity resolution false-merge rate above the 1% acceptance threshold.\nTwo additional sprints requested. Ravi Menon raised campaign calendar impact. Budget\nunchanged at $140k. Go-live under review, currently June 1.\n"
+  },
+  {
+    "file": "2026-05-14-everline-budget.md",
+    "date": "2026-05-14",
+    "title": "Everline Media \u2014 budget revision",
+    "text": "# Everline Media \u2014 budget revision\n\nDate: 2026-05-14\nAccount: Everline Media\n\nAttendees: Sonia Achebe, Sam Okafor.\n\nFollowing the quarterly cost review, the 2026 migration budget for Everline Media moves from\n$140k to $165k. Sonia Achebe described this as the operating cap for the year. Signoff\nauthority remains with Sonia Achebe. No scope changes agreed at this session.\n"
+  },
+  {
+    "file": "2026-05-17-delta-timeline.md",
+    "date": "2026-05-17",
+    "title": "Delta Grove Foods \u2014 timeline change",
+    "text": "# Delta Grove Foods \u2014 timeline change\n\nDate: 2026-05-17\nAccount: Delta Grove Foods\n\nAttendees: Aaron Feld, Lucia Moreno, Kenji Watanabe, Carlos R.\n\nGo-live moves from February 9 to May 18, 2026. Cause is data quality remediation on legacy\nrecords, not budget. Kenji Watanabe accepted the new date. Integration scope holds at Salesforce\nand Braze. Budget holds at $260k.\n"
+  },
+  {
     "file": "2026-05-19-seat-expansion.md",
     "date": "2026-05-19",
     "title": "Seat expansion and partial budget restoration",
     "text": "# Seat expansion and partial budget restoration\n\nDate: 2026-05-19\nAccount: Northwind Retail Group\n\nAttendees: Marcus Bell, Priya Raman, Sam Okafor, Dana Liu (dialed in briefly).\n\nDana joined for ten minutes from leave specifically to handle budget, since Marcus does not\nhold that authority.\n\nTwo commercial changes. First, seat count expands from 1,200 to 1,500 \u2014 Northwind's\nanalytics org is being folded into the same workspace. Second, the CFO released partial\nrelief: the 2026 migration budget is restored from $240k to $265k, conditional on the EU\nenclave remaining deferred to 2027 and no further scope additions this year.\n\nDana was explicit that $265k is the new cap and that the condition is binding \u2014 if EU work\nrestarts in 2026, the cap reverts to $240k.\n\nMarcus resumes chairing after this session.\n"
+  },
+  {
+    "file": "2026-05-20-delta-contract.md",
+    "date": "2026-05-20",
+    "title": "Delta Grove Foods \u2014 contract and SLA terms",
+    "text": "# Delta Grove Foods \u2014 contract and SLA terms\n\nDate: 2026-05-20\nAccount: Delta Grove Foods\n\nAttendees: Aaron Feld, legal counsel, Sam Okafor.\n\nFinalized terms for the 1150-seat agreement. Uptime SLA is 99.9% monthly excluding\nannounced maintenance. Remediation window is 14 days from written notice. Service credits\nare 5% of monthly fees per incident. Deployment region is eu-west-1. Nothing in this\nagreement changes the May 18 go-live or the $260k cap.\n"
+  },
+  {
+    "file": "2026-05-23-delta-readiness.md",
+    "date": "2026-05-23",
+    "title": "Delta Grove Foods \u2014 pre-launch readiness",
+    "text": "# Delta Grove Foods \u2014 pre-launch readiness\n\nDate: 2026-05-23\nAccount: Delta Grove Foods\n\nAttendees: Aaron Feld, Lucia Moreno, Kenji Watanabe, Carlos R.\n\nReadiness check against May 18. Salesforce connector complete and in UAT. Braze connector\non track. Identity resolution holding under threshold. Open risk is support contact\ncoverage during cutover. No change to budget, scope, date, or signoff for Delta Grove Foods.\n"
   },
   {
     "file": "2026-06-02-klaviyo-selection.md",
@@ -66,10 +258,52 @@
     "text": "# Outbound platform selection \u2014 Klaviyo\n\nDate: 2026-06-02\nAccount: Northwind Retail Group\n\nAttendees: Marcus Bell, Priya Raman, Carlos R.\n\nNorthwind selected Klaviyo as the Braze replacement. Contract signed May 28, effective\nAugust 1, which lines up with the Braze end date of July 31.\n\nKlaviyo is now in scope for go-live. Integration scope is therefore Salesforce and Klaviyo.\nPriya wants event-level sync, not just profile sync, so campaign attribution survives the\ncutover.\n\nCarlos flagged this is a scope addition, and the May 19 budget condition prohibits scope\nadditions this year. Marcus's read: replacing Braze with Klaviyo is substitution, not\naddition, since Braze was already descoped. He will confirm with Dana on her return rather\nthan escalate now.\n\nEffort estimate for the Klaviyo connector: 1.5 sprints.\n"
   },
   {
+    "file": "2026-06-05-fairmont-kickoff.md",
+    "date": "2026-06-05",
+    "title": "Fairmont Industrial \u2014 migration kickoff",
+    "text": "# Fairmont Industrial \u2014 migration kickoff\n\nDate: 2026-06-05\nAccount: Fairmont Industrial\n\nAttendees: Greta Hoffman (CTO), Alice Bergeron (Marketing Ops), Sam Okafor (Lumen CDP).\n\nGreta Hoffman confirmed a migration budget of $720k for calendar 2026 and is the executive\nsponsor with final signoff. Target go-live is April 20, 2026. Initial contract covers 3100\nseats. Integration scope at go-live is NetSuite and Salesforce Marketing Cloud. Standing weekly sync agreed.\n"
+  },
+  {
+    "file": "2026-06-08-fairmont-mapping.md",
+    "date": "2026-06-08",
+    "title": "Fairmont Industrial \u2014 data mapping review",
+    "text": "# Fairmont Industrial \u2014 data mapping review\n\nDate: 2026-06-08\nAccount: Fairmont Industrial\n\nAttendees: Daniel Cho (VP Engineering), Alice Bergeron, Carlos R.\n\nReviewed source systems. Daniel Cho flagged identity resolution risk on legacy records and\nestimated two sprints. Data steward assignments confirmed. No change to the $720k budget\nor the April 20 go-live. Primary deployment region is us-east-1.\n"
+  },
+  {
+    "file": "2026-06-11-fairmont-risk.md",
+    "date": "2026-06-11",
+    "title": "Fairmont Industrial \u2014 schedule risk review",
+    "text": "# Fairmont Industrial \u2014 schedule risk review\n\nDate: 2026-06-11\nAccount: Fairmont Industrial\n\nAttendees: Greta Hoffman, Daniel Cho, Carlos R.\n\nDaniel Cho reported the identity resolution false-merge rate above the 1% acceptance threshold.\nTwo additional sprints requested. Alice Bergeron raised campaign calendar impact. Budget\nunchanged at $720k. Go-live under review, currently April 20.\n"
+  },
+  {
+    "file": "2026-06-14-fairmont-budget.md",
+    "date": "2026-06-14",
+    "title": "Fairmont Industrial \u2014 budget revision",
+    "text": "# Fairmont Industrial \u2014 budget revision\n\nDate: 2026-06-14\nAccount: Fairmont Industrial\n\nAttendees: Greta Hoffman, Sam Okafor.\n\nFollowing the quarterly cost review, the 2026 migration budget for Fairmont Industrial moves from\n$720k to $690k. Greta Hoffman described this as the operating cap for the year. Signoff\nauthority remains with Greta Hoffman. No scope changes agreed at this session.\n"
+  },
+  {
     "file": "2026-06-16-dana-returns.md",
     "date": "2026-06-16",
     "title": "Dana returns \u2014 signoff resumes, go-live confirmed",
     "text": "# Dana returns \u2014 signoff resumes, go-live confirmed\n\nDate: 2026-06-16\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Priya Raman, Sam Okafor, Carlos R.\n\nDana back from leave and resumes executive sponsorship and migration signoff authority\neffective today. Marcus returns to VP Engineering scope.\n\nDana confirmed Marcus's reading on Klaviyo: substitution for Braze, not a scope addition,\nso the $265k cap holds and does not revert.\n\nGo-live moves from August 15 to September 1. Reason is the Klaviyo connector plus the\nAugust 1 Klaviyo contract start \u2014 Priya did not want a two-week window where outbound is\nmid-cutover during go-live. September 1 is confirmed and Dana called it final.\n\nCurrent state of record: $265k cap, September 1 go-live, 1,500 seats, Salesforce + Klaviyo\nat go-live, EU enclave deferred to 2027 phase 2, Dana holds signoff.\n"
+  },
+  {
+    "file": "2026-06-17-everline-timeline.md",
+    "date": "2026-06-17",
+    "title": "Everline Media \u2014 timeline change",
+    "text": "# Everline Media \u2014 timeline change\n\nDate: 2026-06-17\nAccount: Everline Media\n\nAttendees: Sonia Achebe, Peter Lindqvist, Ravi Menon, Carlos R.\n\nGo-live moves from June 1 to September 14, 2026. Cause is data quality remediation on legacy\nrecords, not budget. Ravi Menon accepted the new date. Integration scope holds at Pipedrive\nand Klaviyo. Budget holds at $165k.\n"
+  },
+  {
+    "file": "2026-06-20-everline-contract.md",
+    "date": "2026-06-20",
+    "title": "Everline Media \u2014 contract and SLA terms",
+    "text": "# Everline Media \u2014 contract and SLA terms\n\nDate: 2026-06-20\nAccount: Everline Media\n\nAttendees: Sonia Achebe, legal counsel, Sam Okafor.\n\nFinalized terms for the 320-seat agreement. Uptime SLA is 99.9% monthly excluding\nannounced maintenance. Remediation window is 14 days from written notice. Service credits\nare 5% of monthly fees per incident. Deployment region is ap-southeast-2. Nothing in this\nagreement changes the September 14 go-live or the $165k cap.\n"
+  },
+  {
+    "file": "2026-06-23-everline-readiness.md",
+    "date": "2026-06-23",
+    "title": "Everline Media \u2014 pre-launch readiness",
+    "text": "# Everline Media \u2014 pre-launch readiness\n\nDate: 2026-06-23\nAccount: Everline Media\n\nAttendees: Sonia Achebe, Peter Lindqvist, Ravi Menon, Carlos R.\n\nReadiness check against September 14. Pipedrive connector complete and in UAT. Klaviyo connector\non track. Identity resolution holding under threshold. Open risk is support contact\ncoverage during cutover. No change to budget, scope, date, or signoff for Everline Media.\n"
   },
   {
     "file": "2026-06-30-sla-terms.md",
@@ -82,5 +316,23 @@
     "date": "2026-07-14",
     "title": "Pre-launch readiness review",
     "text": "# Pre-launch readiness review\n\nDate: 2026-07-14\nAccount: Northwind Retail Group\n\nAttendees: Dana Liu, Marcus Bell, Priya Raman, Tom Reyes, Carlos R.\n\nReadiness check against September 1.\n\nSalesforce connector: complete, in UAT. Klaviyo connector: 70% complete, on track for\nAugust 8. Identity resolution: holding at 0.6% false-merge. Unmerged singleton queue sits\nat 58k records, staffed as planned.\n\nOpen risk: Ana Duarte, the named support contact and Oracle data steward, is leaving\nNorthwind on August 21. Dana will name a replacement by August 1. Ticket NW-4417 tracks\nthe handover.\n\nNo change to budget, scope, date, or signoff. September 1 holds at $265k.\n"
+  },
+  {
+    "file": "2026-07-17-fairmont-timeline.md",
+    "date": "2026-07-17",
+    "title": "Fairmont Industrial \u2014 timeline change",
+    "text": "# Fairmont Industrial \u2014 timeline change\n\nDate: 2026-07-17\nAccount: Fairmont Industrial\n\nAttendees: Greta Hoffman, Daniel Cho, Alice Bergeron, Carlos R.\n\nGo-live moves from April 20 to August 31, 2026. Cause is data quality remediation on legacy\nrecords, not budget. Alice Bergeron accepted the new date. Integration scope holds at NetSuite\nand Salesforce Marketing Cloud. Budget holds at $690k.\n"
+  },
+  {
+    "file": "2026-07-20-fairmont-contract.md",
+    "date": "2026-07-20",
+    "title": "Fairmont Industrial \u2014 contract and SLA terms",
+    "text": "# Fairmont Industrial \u2014 contract and SLA terms\n\nDate: 2026-07-20\nAccount: Fairmont Industrial\n\nAttendees: Greta Hoffman, legal counsel, Sam Okafor.\n\nFinalized terms for the 3100-seat agreement. Uptime SLA is 99.9% monthly excluding\nannounced maintenance. Remediation window is 14 days from written notice. Service credits\nare 5% of monthly fees per incident. Deployment region is us-east-1. Nothing in this\nagreement changes the August 31 go-live or the $690k cap.\n"
+  },
+  {
+    "file": "2026-07-23-fairmont-readiness.md",
+    "date": "2026-07-23",
+    "title": "Fairmont Industrial \u2014 pre-launch readiness",
+    "text": "# Fairmont Industrial \u2014 pre-launch readiness\n\nDate: 2026-07-23\nAccount: Fairmont Industrial\n\nAttendees: Greta Hoffman, Daniel Cho, Alice Bergeron, Carlos R.\n\nReadiness check against August 31. NetSuite connector complete and in UAT. Salesforce Marketing Cloud connector\non track. Identity resolution holding under threshold. Open risk is support contact\ncoverage during cutover. No change to budget, scope, date, or signoff for Fairmont Industrial.\n"
   }
 ]

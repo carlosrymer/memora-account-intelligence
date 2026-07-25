@@ -159,11 +159,22 @@ def split_cues(raw) -> list[str]:
     return [c.strip() for c in str(raw).split("||") if c.strip()]
 
 
-def export_memories(mc: MemoraClient) -> list[dict]:
-    entries = mc.list_memories(limit=1000)
-    out = []
+def export_memories(mc: MemoraClient) -> tuple[list[dict], int]:
+    """Split the collection into real memories and cue-index rows.
+
+    `list_memories` returns every row in the Chroma collection, and Memora's cue index
+    stores each cue anchor as its own searchable row — abstraction set to the cue text,
+    value empty. Those are an implementation detail of retrieval, not memories, so
+    counting them as such would badly overstate what Memora extracted (627 rows here vs
+    197 actual memories). We return only real memories, plus the cue-row count.
+    """
+    entries = mc.list_memories(limit=5000)
+    memories, cue_rows = [], 0
     for i, e in enumerate(entries):
-        out.append(
+        if not (e.value or "").strip():
+            cue_rows += 1
+            continue
+        memories.append(
             {
                 "id": f"m{i}",
                 "abstraction": e.index or "",
@@ -174,7 +185,7 @@ def export_memories(mc: MemoraClient) -> list[dict]:
                 "history": e.history or [],
             }
         )
-    return out
+    return memories, cue_rows
 
 
 def cue_graph(memories: list[dict]) -> dict:
@@ -290,9 +301,9 @@ def main() -> None:
 
     print("Ingesting with Memora (Gemini-backed)...")
     mc, ingested = build_memora(notes)
-    memories = export_memories(mc)
+    memories, cue_rows = export_memories(mc)
     graph = cue_graph(memories)
-    print(f"  -> {len(memories)} memories, {len(graph['edges'])} cue edges\n")
+    print(f"  -> {len(memories)} memories (+{cue_rows} cue-index rows), {len(graph['edges'])} cue edges\n")
 
     print("Building RAG baseline...")
     col = build_rag(notes, oai)
@@ -363,6 +374,7 @@ def main() -> None:
         ),
         "memora": {
             "memories": len(memories),
+            "cue_index_rows": cue_rows,
             "cue_anchors": sum(len(m["cues"]) for m in memories),
             "cue_edges": len(graph["edges"]),
             "shared_cues": graph["shared_cues"],

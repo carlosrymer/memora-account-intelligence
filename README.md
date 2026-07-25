@@ -43,7 +43,62 @@ OpenAI/Azure OpenAI with no way to set a `base_url`. Four small shims in
 [`pipeline/memora_gemini.py`](pipeline/memora_gemini.py) were enough to run it unmodified
 on Gemini — Memora itself is vendored at a pinned commit and never patched.
 
-<!--RESULTS-->
+## Results
+
+Six questions, three conditions, same model and prompt throughout. Graded by an LLM judge
+against written reference answers, with stating a superseded value as current counted as a
+failure.
+
+| Condition | Correct | Avg context tokens |
+|---|---|---|
+| **Memora** (policy-guided retrieval) | **5 / 6** | **684** |
+| RAG baseline (chunk + embed) | 6 / 6 | 851 |
+| Full context (no retrieval) | 6 / 6 | 7,122 |
+
+**Memora lost on accuracy.** The system under trial was beaten by the baseline it is meant
+to improve on, on the task it was designed for. It won on cost — 90% fewer context tokens
+than full context, 20% fewer than RAG — but that is the cheaper half of the claim.
+
+### Why it lost, specifically
+
+The miss was *"Which integrations are in scope for go-live?"* (answer: Salesforce and
+Klaviyo). It is worth understanding, because it is the failure mode Memora's design exists
+to prevent.
+
+Retrieval was not the problem. Memora **did** surface the correct memory — one entry says
+plainly that scope is Salesforce and Klaviyo. But it also surfaced a *consolidated* entry,
+"migration go-live timeline, scope, and risks", which had folded the January, March and
+April notes into one memory and ended by asserting go-live is *"August 15, 2026, with 1,200
+seats and Salesforce-only functionality"* — stale on all three counts, stated flatly as
+current, with nothing marking it superseded.
+
+Two retrieved memories contradicted each other; the answer split the difference and got it
+wrong. Consolidating related updates into unified entries is the mechanism that makes the
+memory scale, and here it is what manufactured the error. The RAG baseline, which keeps
+chunks dated and separate, had an easier time telling old from current.
+
+### What still stands up
+
+The three-part representation is sound and does what it says: short embedded abstractions
+over values that keep every figure, name and clause number intact. That is what produces
+the token saving, and you can inspect all 197 memories on the live page. The cue anchors
+are better than expected — 468 of them, 29 shared across memories, reading like something a
+person would index by rather than keyword spray.
+
+The honest read is that the *representation* held up and the *consolidation policy* is
+where the risk sits. On a corpus whose defining feature is that facts get superseded,
+merging updates without preserving which value won is the thing that bites.
+
+### How much to read into it
+
+Not a lot, in either direction. One run, no averaging, 56 notes, 6 questions, a fictional
+corpus built to contain known contradictions. A single wrong answer is the difference
+between "loss" and "tie". At 7,122 tokens the whole corpus still fits in context, which is
+well below the scale Memora targets — on LoCoMo/LongMemEval-sized histories, full context
+stops being an option and the token argument gets much stronger than it looks here.
+
+Every answer, verdict, and retrieved memory is published in
+[`docs/data/queries.json`](docs/data/queries.json) so the grading can be checked by hand.
 
 ## The use case
 

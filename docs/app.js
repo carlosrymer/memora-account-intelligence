@@ -53,7 +53,11 @@ function renderTiles() {
   const tiles = [
     { val: num(s.corpus.notes), lbl: "meeting notes ingested", sub: `${num(signal)} for the account in question` },
     { val: num(s.memora.memories), lbl: "memories Memora built", sub: "each abstraction + value + cues" },
-    { val: num(s.memora.cue_anchors), lbl: "cue anchors", sub: `${num(s.memora.shared_cues)} shared across memories` },
+    {
+      val: num(s.memora.cue_anchors),
+      lbl: "cue anchors",
+      sub: `${num(s.memora.shared_cues)} shared${s.memora.cue_index_rows ? ` · ${num(s.memora.cue_index_rows)} indexed as own rows` : ""}`,
+    },
     { val: num(s.corpus.tokens), lbl: "tokens in the full corpus", sub: "what no-retrieval costs per question" },
   ];
   $("#tiles").innerHTML = tiles
@@ -257,18 +261,49 @@ function renderVerdict() {
 
   const boxes = [];
 
+  const beatRag = sc.memora.correct > sc.rag.correct;
+  const lostToRag = sc.memora.correct < sc.rag.correct;
+
   boxes.push(`<div class="vbox">
-    <h3>Did Memora deliver?</h3>
+    <h3>Did Memora deliver? Not on accuracy.</h3>
     <p>On this corpus Memora answered <strong>${sc.memora.correct}/${DATA.queries.length}</strong>
-    questions correctly against <strong>${sc.rag.correct}/${DATA.queries.length}</strong> for the RAG
-    baseline and <strong>${sc.full.correct}/${DATA.queries.length}</strong> for sending every note with no
-    retrieval at all — while using <strong>${saveFull}% fewer context tokens than full context</strong>
-    and ${saveRag > 0 ? `${saveRag}% fewer than RAG` : `${Math.abs(saveRag)}% more than RAG`}.</p>
-    <p>The paper claims up to 98% token reduction. We measure ${saveFull}% here, on a corpus of
-    ${num(s.corpus.tokens)} tokens. That gap is expected and not a knock: the claim is made against
-    benchmarks with far longer histories, where full context is enormous. The reduction scales with
-    how much history you have.</p>
+    questions correctly, against <strong>${sc.rag.correct}/${DATA.queries.length}</strong> for the
+    plain RAG baseline and <strong>${sc.full.correct}/${DATA.queries.length}</strong> for sending
+    every note with no retrieval at all.
+    ${lostToRag
+      ? `That is a loss. The system under trial was beaten by the baseline it is meant to improve on,
+         on the task it was designed for.`
+      : beatRag
+        ? `That is a win over the baseline.`
+        : `That is a tie with the baseline.`}</p>
+    <p>Where it did deliver is cost. Memora answered on an average of
+    <strong>${num(avg.memora)} context tokens</strong> against ${num(avg.rag)} for RAG and
+    ${num(avg.full)} for full context — <strong>${saveFull}% below full context</strong>
+    and ${saveRag > 0 ? `${saveRag}% below RAG` : `${Math.abs(saveRag)}% above RAG`}. The paper claims
+    up to 98% reduction; ${saveFull}% here is the honest number at ${num(s.corpus.tokens)} tokens of
+    history, and the gap is expected — the claim is made against benchmarks with far longer histories,
+    and the saving scales with how much history there is to skip.</p>
   </div>`);
+
+  const failures = DATA.queries.filter((q) => q.conditions.memora.verdict === "wrong");
+  if (failures.length) {
+    const f = failures[0];
+    boxes.push(`<div class="vbox">
+      <h3>Why it lost — consolidation buried a stale fact</h3>
+      <p>The miss was <em>${esc(f.question)}</em>, and it is worth understanding, because it is
+      the failure mode Memora's design is supposed to prevent.</p>
+      <p>Retrieval was not the problem. Memora <strong>did</strong> surface the correct memory —
+      one entry states plainly that scope is Salesforce and Klaviyo. But it also surfaced a
+      <em>consolidated</em> entry, &ldquo;migration go-live timeline, scope, and risks&rdquo;, which
+      had folded January, March and April notes together and ended by asserting go-live is
+      &ldquo;August 15, 2026, with 1,200 seats and Salesforce-only functionality&rdquo; — stale on all
+      three counts, stated flatly as current, with nothing marking it superseded.</p>
+      <p>So the two retrieved memories contradicted each other, and the answer split the difference
+      and got it wrong. Consolidating related updates into unified entries is the mechanism meant to
+      make memory scale; here it is what manufactured the error. The RAG baseline, which keeps chunks
+      dated and separate, had an easier time telling old from current.</p>
+    </div>`);
+  }
 
   if (small) {
     boxes.push(`<div class="vbox"><h3>The first run proved nothing — and that mattered</h3><p>${esc(small)}</p></div>`);
@@ -289,14 +324,30 @@ function renderVerdict() {
   </div>`);
 
   boxes.push(`<div class="vbox">
-    <h3>Where the idea earns its keep</h3>
-    <p>The three-part memory is the interesting part, and you can see it in the grid above: the
-    embedded abstraction is a short phrase, but the value it points at keeps every figure, name and
-    clause number intact. That is the actual trade being made — you get summarization's index size
-    without summarization's data loss.</p>
-    <p>Read the numbers with the corpus in mind. ${num(s.corpus.notes)} notes is small next to the
-    benchmarks Memora reports on, and a fictional corpus written to contain known contradictions is
-    not a substitute for real account history.</p>
+    <h3>What still stands up</h3>
+    <p>The three-part memory is a genuinely good idea, and you can see it working in the grid above:
+    the embedded abstraction is a short phrase, but the value it points at keeps every figure, name
+    and clause number intact. That trade — summarization's index size without summarization's data
+    loss — is real, and it is what produces the token saving.</p>
+    <p>The cue anchors are also better than expected. ${num(s.memora.cue_anchors)} of them across
+    ${num(s.memora.memories)} memories, ${num(s.memora.shared_cues)} shared by more than one memory,
+    and they read like something a person would index by rather than like keyword spray.</p>
+    <p>What this run suggests is that the representation is sound and the <em>consolidation policy</em>
+    is where the risk sits. On a corpus whose defining feature is that facts get superseded, merging
+    updates into one entry without preserving which value won is the thing that bites.</p>
+  </div>`);
+
+  boxes.push(`<div class="vbox">
+    <h3>How much to read into this</h3>
+    <p>Not a lot, in either direction. This is ${num(s.corpus.notes)} notes and
+    ${DATA.queries.length} questions — one run, no averaging, on a fictional corpus written to contain
+    known contradictions. A single wrong answer is the difference between the headline being a loss
+    and a tie, and the ${num(s.corpus.tokens)}-token corpus is far below the scale Memora reports on
+    (LoCoMo, LongMemEval), where full context stops being a viable option at all and the token
+    argument gets much stronger.</p>
+    <p>Treat it as one honest data point on a research code drop, not a benchmark result. Every
+    answer, verdict and retrieved memory behind it is published in
+    <code>docs/data/queries.json</code> so you can check the grading yourself.</p>
   </div>`);
 
   $("#verdict").innerHTML = boxes.join("");
