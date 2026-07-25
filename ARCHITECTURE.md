@@ -56,7 +56,6 @@ flowchart TB
 | `pipeline/run_build.py` | Ingest, three-condition retrieval, answering, LLM-judge grading, JSON export | Memora, ChromaDB, OpenAI SDK |
 | `pipeline/vendor/Memora` | Upstream Memora, pinned at commit `dec3f8f`, never edited | Git clone |
 | `docs/` | Static viewer: scoreboard, token comparison, per-question X-ray, memory browser | HTML/CSS/vanilla JS |
-| `.github/workflows/deploy.yml` | Publishes `docs/` to GitHub Pages on push to `main` | GitHub Actions |
 
 ## Data flow
 
@@ -92,12 +91,17 @@ flowchart TB
 
 ## Deployment
 
-GitHub Pages, via `.github/workflows/deploy.yml` on push to `main`. The workflow uploads
-`docs/` verbatim — there is no build step, bundler, or dependency install, because the
-site is hand-written HTML/CSS/JS against precomputed JSON.
+GitHub Pages, serving the `docs/` folder directly from the `main` branch (Settings →
+Pages → Source: *Deploy from a branch* → `main` / `/docs`). A push to `main` is the whole
+deploy: there is no build step, bundler, dependency install, or CI workflow, because the
+site is hand-written HTML/CSS/JS over precomputed JSON. `docs/.nojekyll` stops Jekyll from
+reprocessing it.
+
+An Actions-based deploy would work equally well, but buys nothing here — with no build
+step the artifact is identical to the source folder.
 
 Rerunning the experiment is a manual, local step (`run_build.py` with a `GEMINI_API_KEY`);
-CI never calls a model. That keeps the deploy path free of secrets entirely.
+nothing in the deploy path calls a model, so no secrets are needed to publish.
 
 ## Tech choices & rationale
 
